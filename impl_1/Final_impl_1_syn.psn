@@ -1,0 +1,35 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2023.1.0.43.3
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o Final_impl_1_syn.udb -ldc Z:/es4/Final-20241122T182447Z-001/Final/impl_1/Final_impl_1.ldc -gui -msgset Z:/es4/Final-20241122T182447Z-001/Final/promote.xml Final_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'Final_impl_1.vm' ...
+Reading constraint file 'Z:/es4/Final-20241122T182447Z-001/Final/impl_1/Final_impl_1.ldc' ...
+Removing unused logic ...
+INFO <35811146> - Signal game1/my_randomizer/countSlow_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal game1/guardTwo_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal game1/guardOne_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal game1/newArrowCounter_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal vga1/un2_colcount_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal vga1/rowcount_1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal mypattern/gen_helper.0.helper/un6_in_y_range_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal mypattern/gen_helper.0.helper/un4_in_y_range_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal mypattern/gen_helper.0.helper/un3_in_x_range_cry_5_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811146> - Signal mypattern/gen_helper.0.helper/un5_in_x_range_cry_6_c_0.CIN undriven or does not drive anything - clipped
+INFO <35811149> - ... More signals are undriven or does not drive anything - clipped
+Starting design annotation....
+WARNING <70001944> - No master clock for
+	generated clock	create_generated_clock -name {intclk} -source [get_pins {pllinst/lscc_pll_inst/u_PLL_B/REFERENCECLK}] -multiply_by 67 -divide_by 32 [get_pins {pllinst/lscc_pll_inst/u_PLL_B/OUTGLOBAL }] .
+WARNING <70001944> - No master clock for
+	generated clock	create_generated_clock -name {vgaclkout_c} -source [get_pins {pllinst/lscc_pll_inst/u_PLL_B/REFERENCECLK}] -multiply_by 67 -divide_by 32 [get_pins {pllinst/lscc_pll_inst/u_PLL_B/OUTCORE }] .
+ 
+Constraint Summary:
+   Total number of constraints: 3
+   Total number of constraints dropped: 0
+ 
+Writing output file 'Final_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 45 MB

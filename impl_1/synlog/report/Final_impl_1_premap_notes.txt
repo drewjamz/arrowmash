@@ -1,0 +1,12 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN115 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\top.vhd":151:1:151:14|Removing instance state_machine1 (in view: work.top(synth)) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":59:4:59:5|Removing sequential instance reset_game (in view: work.states(synth)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Removing sequential instance game_end (in view: work.game(synth)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":59:4:59:5|Removing sequential instance state_machine[0:2] (in view: work.states(synth)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":50:1:50:2|Removing sequential instance button_pressed[1] (in view: work.states(synth)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":50:1:50:2|Removing sequential instance button_pressed[0] (in view: work.states(synth)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1.sap.

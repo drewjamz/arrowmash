@@ -1,0 +1,398 @@
+-- all messages logged in file hdlparser.log
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/standard.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/standard.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/standard.vhd(9): INFO: analyzing package 'standard' (VHDL-1014)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_1164.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_1164.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_1164.vhd(15): INFO: analyzing package 'std_logic_1164' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_1164.vhd(178): INFO: analyzing package body 'std_logic_1164' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mgc_qsim.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mgc_qsim.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mgc_qsim.vhd(18): INFO: analyzing package 'qsim_logic' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mgc_qsim.vhd(753): INFO: analyzing package body 'qsim_logic' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_bit.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_bit.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_bit.vhd(54): INFO: analyzing package 'numeric_bit' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_bit.vhd(834): INFO: analyzing package body 'numeric_bit' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_std.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_std.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_std.vhd(57): INFO: analyzing package 'numeric_std' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/numeric_std.vhd(874): INFO: analyzing package body 'numeric_std' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/textio.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/textio.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/textio.vhd(13): INFO: analyzing package 'textio' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/textio.vhd(114): INFO: analyzing package body 'textio' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_logic_textio.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_logic_textio.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_logic_textio.vhd(26): INFO: analyzing package 'std_logic_textio' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/std_logic_textio.vhd(72): INFO: analyzing package body 'std_logic_textio' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_attr.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_attr.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_attr.vhd(39): INFO: analyzing package 'attributes' (VHDL-1014)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_misc.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_misc.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_misc.vhd(30): INFO: analyzing package 'std_logic_misc' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_misc.vhd(182): INFO: analyzing package body 'std_logic_misc' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/math_real.vhd' (VHDL-1481)
+./.__tmp_vxr_0_(56): INFO: analyzing package 'math_real' (VHDL-1014)
+./.__tmp_vxr_0_(685): INFO: analyzing package body 'math_real' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mixed_lang_vltype.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mixed_lang_vltype.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): INFO: analyzing package 'vl_types' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): INFO: analyzing package body 'vl_types' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_arit.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_arit.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_arit.vhd(25): INFO: analyzing package 'std_logic_arith' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_arit.vhd(206): INFO: analyzing package body 'std_logic_arith' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_sign.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_sign.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_sign.vhd(35): INFO: analyzing package 'std_logic_signed' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_sign.vhd(96): INFO: analyzing package body 'std_logic_signed' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_unsi.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_unsi.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_unsi.vhd(35): INFO: analyzing package 'std_logic_unsigned' (VHDL-1014)
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/syn_unsi.vhd(94): INFO: analyzing package body 'std_logic_unsigned' (VHDL-1013)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/synattr.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/synattr.vhd
+C:/lscc/radiant/2023.1/ispfpga/vhdl_packages/synattr.vhd(50): INFO: analyzing package 'attributes' (VHDL-1014)
+-- Analyzing Verilog file 'C:/lscc/radiant/2023.1/cae_library/synthesis/verilog/iCE40UP.v' (VERI-1482)
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/cae_library/synthesis/vhdl/iCE40UP.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/cae_library/synthesis/vhdl/iCE40UP.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/2023.1/ip/pmi/pmi_iCE40UP.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/2023.1/ip/pmi/pmi_iCE40UP.vhd
+-- Analyzing Verilog file 'Z:/es4/Final-20241122T182447Z-001/Final/mypll/rtl/mypll.v' (VERI-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrows_pkg.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrows_pkg.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrows_pkg.vhd(5): INFO: analyzing package 'arrows_pkg' (VHDL-1014)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states_pkg.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states_pkg.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states_pkg.vhd(5): INFO: analyzing package 'states_pkg' (VHDL-1014)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(9): INFO: analyzing entity 'top' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(28): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(127): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(127): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(128): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(128): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(192): ERROR: type error near 'valid' ; expected type 'boolean' (VHDL-1272)
+ERROR <35921272> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(192): type error near valid  expected type boolean. VHDL-1272
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(220): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd(220): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/top.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/NES_controller.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/NES_controller.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/NES_controller.vhd(5): INFO: analyzing entity 'nes_controller' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/NES_controller.vhd(15): INFO: analyzing architecture 'synth' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(6): INFO: analyzing entity 'vga' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(17): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(44): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(44): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(46): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(46): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(46): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(46): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(47): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(47): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(47): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(47): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(52): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(52): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(55): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(55): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(63): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(63): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(64): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(64): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(67): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(67): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(73): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(73): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(73): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(73): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(79): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd(79): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/vga.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(9): INFO: analyzing entity 'pattern_gen' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(27): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(159): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(159): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(201): WARNING: actual for formal port 'addr' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(201): actual for formal port addr is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(202): WARNING: actual for formal port 'arrow_type' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(202): actual for formal port arrow_type is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(207): WARNING: actual for formal port 'addr' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(207): actual for formal port addr is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(208): WARNING: actual for formal port 'arrow_type' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(208): actual for formal port arrow_type is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(214): WARNING: actual for formal port 'addr' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(214): actual for formal port addr is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(215): WARNING: actual for formal port 'heart_color' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(215): actual for formal port heart_color is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(216): WARNING: actual for formal port 'heart_filled' is neither a static name nor a globally static expression (VHDL-1443)
+WARNING <35921443> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(216): actual for formal port heart_filled is neither a static name nor a globally static expression. VHDL-1443
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(354): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(354): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(354): ERROR: 0 definitions of operator "or" match here (VHDL-1052)
+ERROR <35921052> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(354): 0 definitions of operator "or" match here. VHDL-1052
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(356): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(356): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(356): ERROR: 0 definitions of operator "or" match here (VHDL-1052)
+ERROR <35921052> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(356): 0 definitions of operator "or" match here. VHDL-1052
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(362): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(362): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(362): ERROR: 0 definitions of operator "or" match here (VHDL-1052)
+ERROR <35921052> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(362): 0 definitions of operator "or" match here. VHDL-1052
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(364): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(364): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(365): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(365): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(365): ERROR: indexed name is not a 'boolean' (VHDL-1120)
+ERROR <35921120> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(365): indexed name is not a boolean. VHDL-1120
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(366): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(366): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(366): ERROR: indexed name is not a 'boolean' (VHDL-1120)
+ERROR <35921120> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(366): indexed name is not a boolean. VHDL-1120
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(367): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(367): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(367): ERROR: indexed name is not a 'boolean' (VHDL-1120)
+ERROR <35921120> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(367): indexed name is not a boolean. VHDL-1120
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(368): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(368): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(368): ERROR: indexed name is not a 'boolean' (VHDL-1120)
+ERROR <35921120> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(368): indexed name is not a boolean. VHDL-1120
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(369): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(369): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(369): ERROR: indexed name is not a 'boolean' (VHDL-1120)
+ERROR <35921120> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(369): indexed name is not a boolean. VHDL-1120
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(370): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen.vhd(370): this construct is only supported in VHDL 1076-2008. VHDL-1576
+-- Sorry, too many errors..
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_arrow_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_arrow_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_arrow_rom.vhd(5): INFO: analyzing entity 'up_arrow_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_arrow_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_arrow_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_arrow_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_arrow_rom.vhd(5): INFO: analyzing entity 'right_arrow_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_arrow_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_arrow_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_arrow_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_arrow_rom.vhd(5): INFO: analyzing entity 'left_arrow_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_arrow_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_arrow_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_arrow_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_arrow_rom.vhd(5): INFO: analyzing entity 'down_arrow_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_arrow_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrow_selector.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrow_selector.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrow_selector.vhd(5): INFO: analyzing entity 'arrow_selector' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/arrow_selector.vhd(13): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/randomizer.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/randomizer.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/randomizer.vhd(5): INFO: analyzing entity 'randomizer' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/randomizer.vhd(12): INFO: analyzing architecture 'synth' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(5): INFO: analyzing entity 'pattern_gen_helper' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(17): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(30): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(30): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(31): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(31): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(32): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(32): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(33): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(33): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(50): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd(50): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(5): INFO: analyzing entity 'pattern_gen_helper2' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(17): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(30): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(30): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(31): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(31): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(32): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(32): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(33): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(33): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(50): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd(50): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/pattern_gen_helper2.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_heart_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_heart_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_heart_rom.vhd(5): INFO: analyzing entity 'blue_heart_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_heart_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_heart_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_heart_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_heart_rom.vhd(5): INFO: analyzing entity 'red_heart_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_heart_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_heart_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_heart_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_heart_rom.vhd(5): INFO: analyzing entity 'blank_heart_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_heart_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_blank_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_blank_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_blank_rom.vhd(5): INFO: analyzing entity 'right_blank_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/right_blank_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_blank_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_blank_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_blank_rom.vhd(5): INFO: analyzing entity 'up_blank_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/up_blank_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_blank_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_blank_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_blank_rom.vhd(5): INFO: analyzing entity 'down_blank_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/down_blank_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_blank_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_blank_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_blank_rom.vhd(5): INFO: analyzing entity 'left_blank_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/left_blank_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/start_screen_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/start_screen_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/start_screen_rom.vhd(5): INFO: analyzing entity 'start_screen_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/start_screen_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(5): INFO: analyzing entity 'blank_helper' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(16): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(30): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(30): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(31): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(31): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(32): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(32): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(33): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(33): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(35): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(35): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(52): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd(52): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/Blank_Arrow_Selector.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/Blank_Arrow_Selector.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/Blank_Arrow_Selector.vhd(5): INFO: analyzing entity 'blank_arrow_selector' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/Blank_Arrow_Selector.vhd(13): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(10): INFO: analyzing entity 'game' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(17): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(21): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(21): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(22): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(22): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(24): ERROR: unit 'game' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd(24): unit game ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/game.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(5): INFO: analyzing entity 'blank_helper2' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(16): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(30): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(30): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(31): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(31): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(32): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(32): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(33): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(33): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(35): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(35): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(52): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd(52): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blank_helper2.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(5): INFO: analyzing entity 'heart_helper' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(16): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(30): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(30): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(31): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(31): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(32): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(32): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(34): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(34): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(35): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(35): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(51): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd(51): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_helper.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(5): INFO: analyzing entity 'heart_selector' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(14): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(80): ERROR: type error near 'heart_color' ; expected type 'boolean' (VHDL-1272)
+ERROR <35921272> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(80): type error near heart_color  expected type boolean. VHDL-1272
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(79): ERROR: type error near 'heart_filled' ; expected type 'boolean' (VHDL-1272)
+ERROR <35921272> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(79): type error near heart_filled  expected type boolean. VHDL-1272
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(82): ERROR: unit 'behavioral' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd(82): unit behavioral ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/heart_selector.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(10): INFO: analyzing entity 'states' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(21): INFO: analyzing architecture 'synth' (VHDL-1010)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(41): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(41): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(43): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(43): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(44): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(44): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(45): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(45): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(49): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(49): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(51): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(51): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(52): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(52): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(53): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(53): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(61): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(61): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(70): ERROR: type error near 'game_end' ; expected type 'boolean' (VHDL-1272)
+ERROR <35921272> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(70): type error near game_end  expected type boolean. VHDL-1272
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(77): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(77): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(80): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(80): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(87): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(87): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(90): ERROR: this construct is only supported in VHDL 1076-2008 (VHDL-1576)
+ERROR <35921576> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(90): this construct is only supported in VHDL 1076-2008. VHDL-1576
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(102): ERROR: unit 'synth' is ignored due to previous errors (VHDL-1284)
+ERROR <35921284> - Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd(102): unit synth ignored due to previous errors. VHDL-1284
+-- VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/states.vhd' is ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_win_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_win_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_win_rom.vhd(5): INFO: analyzing entity 'red_win_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/red_win_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_win_rom.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_win_rom.vhd
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_win_rom.vhd(5): INFO: analyzing entity 'blue_win_rom' (VHDL-1012)
+Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/blue_win_rom.vhd(12): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing VHDL file 'Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/fullscreen_helper.vhd' (VHDL-1481)
+-- Analyzing VHDL file Z:/es4/Final-20241122T182447Z-001/Final/source/impl_1/fullscreen_helper.vhd
+INFO: exit parsing due to analyzing error.

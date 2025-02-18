@@ -1,0 +1,66 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03LR-1
+Install: C:\lscc\radiant\2023.1\synpbase
+OS: Windows 10 or later
+Hostname: LAB223F
+
+Implementation : impl_1
+
+# Written on Tue Dec 10 13:36:16 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1_cpe.ldc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                         Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                         Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                        200.0 MHz     5.000         system       system_clkgroup           0    
+                                                                                                                                                
+0 -       mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     300  
+                                                                                                                                                
+0 -       NES_controller_0|op_le_un7_outclock_inferred_clock            200.0 MHz     5.000         inferred     Inferred_clkgroup_0_4     16   
+                                                                                                                                                
+0 -       NES_controller_1|op_le_un7_outclock_inferred_clock            200.0 MHz     5.000         inferred     Inferred_clkgroup_0_6     16   
+                                                                                                                                                
+0 -       pattern_gen|op_or_6_result_2_inferred_clock                   200.0 MHz     5.000         inferred     Inferred_clkgroup_0_7     3    
+                                                                                                                                                
+0 -       randomizer|clk_inferred_clock                                 200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     2    
+================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                              Clock     Source                                             Clock Pin                              Non-clock Pin     Non-clock Pin                       
+Clock                                                         Load      Pin                                                Seq Example                            Seq Example       Comb Example                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                        0         -                                                  -                                      -                 -                                   
+                                                                                                                                                                                                                        
+mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     300       pllinst.lscc_pll_inst.u_PLL_B.OUTGLOBAL(PLL_B)     controllerTwo.counter[19:0].C          -                 -                                   
+                                                                                                                                                                                                                        
+NES_controller_0|op_le_un7_outclock_inferred_clock            16        controllerTwo.op_le\.un7_outclock.OUT(lt)          controllerTwo.shift[7:0].C             -                 controllerTwo.un5_outlatch.I[0](inv)
+                                                                                                                                                                                                                        
+NES_controller_1|op_le_un7_outclock_inferred_clock            16        controllerOne.op_le\.un7_outclock.OUT(lt)          controllerOne.shift[7:0].C             -                 controllerOne.un5_outlatch.I[0](inv)
+                                                                                                                                                                                                                        
+pattern_gen|op_or_6_result_2_inferred_clock                   3         mypattern.op_or\.6\.result_2.OUT(or)               mypattern.current_displaying[2].C      -                 rgb[2:0].B[0](mux)                  
+                                                                                                                                                                                                                        
+randomizer|clk_inferred_clock                                 2         game1.my_randomizer.osc.CLKHF(HSOSC)               game1.my_randomizer.counter[1:0].C     -                 -                                   
+========================================================================================================================================================================================================================

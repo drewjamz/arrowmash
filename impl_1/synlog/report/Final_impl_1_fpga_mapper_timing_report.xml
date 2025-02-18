@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>Z:\es4\Final-20241122T182447Z-001\Final\impl_1\synlog\Final_impl_1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>NES_controller_0|op_le_un7_outclock_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>284.2 MHz</data>
+<data>1.481</data>
+</row>
+<row>
+<data>NES_controller_1|op_le_un7_outclock_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>284.2 MHz</data>
+<data>1.481</data>
+</row>
+<row>
+<data>mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>37.9 MHz</data>
+<data>-21.383</data>
+</row>
+<row>
+<data>pattern_gen|op_or_6_result_2_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>randomizer|clk_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>211.9 MHz</data>
+<data>0.282</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>143.8 MHz</data>
+<data>-1.952</data>
+</row>
+</report_table>

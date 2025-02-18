@@ -1,0 +1,7 @@
+C:\lscc\radiant\2023.1\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  Z:\es4\Final-20241122T182447Z-001\Final\impl_1\synwork\Final_impl_1_comp.srs  -osyn  Z:\es4\Final-20241122T182447Z-001\Final\impl_1\synwork\Final_impl_1_mult.srs  -log  Z:\es4\Final-20241122T182447Z-001\Final\impl_1\synlog\Final_impl_1_multi_srs_gen.srr 
+relcom:C:\lscc\radiant\2023.1\synpbase\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\Final_impl_1_comp.srs -osyn ..\synwork\Final_impl_1_mult.srs -log ..\synlog\Final_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\final_impl_1_comp.srs|io:i|time:1733855773|size:62385|exec:0|csum:C43D07729ED7EDB24C73BF31B217C68B
+file:..\synwork\final_impl_1_mult.srs|io:o|time:1733855775|size:5636|exec:0|csum:
+file:..\synlog\final_impl_1_multi_srs_gen.srr|io:o|time:1733855775|size:1146|exec:0|csum:
+file:c:\lscc\radiant\2023.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1685564428|size:10600960|exec:1|csum:5D87BCE07D7E863695AC28DD65895E86

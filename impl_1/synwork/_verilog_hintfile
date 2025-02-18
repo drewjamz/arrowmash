@@ -1,0 +1,255 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|0|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\bin64\\c_vhdl.exe":1685564424
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\location.map":1685564773
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1685564455
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std1164.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std_textio.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\numeric.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd\\umr_capim.vhd":1685564455
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\arith.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\unsigned.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_iCE40UP.vhd":1648538958
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\NES_controller.vhd":1732579564
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\vga.vhd":1733804288
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\up_arrow_rom.vhd":1733274973
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\right_arrow_rom.vhd":1733275409
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\left_arrow_rom.vhd":1733275394
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\down_arrow_rom.vhd":1733275287
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\randomizer.vhd":1733521300
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen_helper.vhd":1733707844
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen_helper2.vhd":1733707861
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blue_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\red_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\right_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\up_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\down_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\left_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\start_screen_rom.vhd":1733610533
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_helper.vhd":1733697275
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\arrows_pkg.vhd":1733688489
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_helper2.vhd":1733708186
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\heart_helper.vhd":1733727873
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\states_pkg.vhd":1733852772
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\red_win_rom.vhd":1733798409
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blue_win_rom.vhd":1733798503
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\fullscreen_helper.vhd":1733855749
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\arrow_selector.vhd":1733277405
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\Blank_Arrow_Selector.vhd":1733614302
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\heart_selector.vhd":1733728944
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen.vhd":1733855724
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\game.vhd":1733851640
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\states.vhd":1733853127
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\top.vhd":1733855713
+@E8lFkRDC0
+FbDsHLNRs$I	Fs
+bHMkP0RoDNO	
+R4HkMb0NR80CNh#CmMRH4
+M0bkR08NN#hCaRIF4k
+F00bkRNPoOFD	k40R
+0FkbRk0EM#$O
+R4Fbk0kP0R#O$MRF4
+kk0b0oRsL
+RdFbk0kD0RNE0OhmC#M4CR
+0FkbRk0OhD	CM#mC
+R4Fbk0kD0RNE0OhaC#I4FR
+0FkbRk0OhD	CI#aF
+R4ClM8FD8kCF
+l8CkDRN#00
+C#DsHLNRs$I	Fs
+bHMkH0RM	ODRH4
+M0bkR08NNCmMRHU
+M0bkR08NNFaIRHU
+M0bkRloNCM_C8
+R4Fbk0ks0RC0#C_loNC
+R4Fbk0kO0RkCssM#0_0CN0RC.
+MF8l8CkD
+8lFkRDCoCNl
+LDHs$NsRsIF	M
+HbRk0HDMO	
+R4HkMb0NR80MNmC
+RUHkMb0NR80INaF
+RUFbk0kN0RsIsF_NCML#DCRFU
+kk0b0sRNs_FI0C$b#.Rd
+0FkbRk0NFssI__$b#F#R
+UjFbk0ko0RN_lCCRM84M
+HbRk0sCC#0N_ol4CR
+bHMkO0RkCssM#0_0CN0RF.
+kk0b0HRDPmC#M.CR
+0FkbRk0DCHP#FaIRC.
+MF8l8CkD
+8lFkRDCb0N0C_sMo
+CMDsHLNRs$I	Fs
+bHMkP0RN8DHRH4
+M0bkRIsFR
+4jHkMb0FRODjR4
+bHMkN0RsIsF_NCML#DCRHU
+M0bkRsNsF0I_$#bCR
+d.HkMb0sRNs_FI$F_b#U#RjM
+HbRk0DCHP#CmMRH.
+M0bkRPDHCI#aF
+R.Fbk0ks0RodLR
+8CMlkF8DlC
+FD8kCCR]N_s01CCDOs0F
+LDHs$NsRsIF	M
+HbRk0Ns88RHU
+M0bkRNECsO0_FsDFRH4
+M0bkRNECsV0_HCDD8
+R4Fbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8DACRD	NM_sqsF1I_CODC0
+FsDsHLNRs$I	Fs
+bHMkN0R8R8sUM
+HbRk0NFssI$_0bcCR
+0FkbRk08NN0_0FkRCd
+MF8l8CkD
+8lFkRDCqFssIC_1D0COFDs
+HNLssI$RF
+s	HkMb08RN8UsR
+bHMkN0RsIsF_b0$C
+RcFbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8DACRD_kCW_HM)
+FlDsHLNRs$I	Fs
+bHMkN0R8R8s4Fc
+kk0b0NR80FN_kd0R
+8CMlkF8DlC
+FD8kCCR)8H_WMF_)lH
+DLssN$FRIsH	
+M0bkR8N8scR4
+0FkbRk08NN0_0FkRCd
+MF8l8CkD
+8lFkRDCEsCN0C_EDsbC
+LDHs$NsRsIF	M
+HbRk0EsCN0k_MlsLCRH.
+M0bkRNECsb0_DCN$s
+R4HkMb0OR#sMCC_bG_F4#RjM
+HbRk0#COsC$M__#bFR
+4jFbk0ks0RFOl_F8FsRFU
+kk0b0CRs0Mks_NCMLRDC4M
+C88lFk
+DClkF8DLCRD	NM_DECb.Cs
+LDHs$NsRsIF	M
+HbRk0NFssIM_CNCLDRH4
+M0bkRsNsF0I_$RbCcM
+HbRk0#COsCGM__#bFR
+4jHkMb0OR#sMCC_b$_F4#Rjk
+F00bkRlsF_FOFsR8dUk
+F00bkR0sCk_sMCLMND4CR
+8CMlkF8DlC
+FD8kCDRLN_M	EbCDCDs
+HNLssI$RF
+s	HkMb0sRNs_FICLMND4CR
+bHMkN0RsIsF_b0$C
+RcHkMb0OR#sMCC_bG_F4#RjM
+HbRk0#COsC$M__#bFR
+4jFbk0ks0RFOl_F8Fsd
+RUFbk0ks0RCs0kMM_CNCLDRC4
+MF8l8CkD
+8lFkRDC1s0N0O_1sMCC_l)F
+LDHs$NsRsIF	M
+HbRk0Ns88R
+4cFbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8DpCRC_V0AMDN	F_)lH
+DLssN$FRIsH	
+M0bkR8N8s
+RUFbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8D7CRF_IMAMDN	F_)lH
+DLssN$FRIsH	
+M0bkR8N8s
+RUFbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8DzCRbD_AN_M	)
+FlDsHLNRs$I	Fs
+bHMkN0R8R8sUk
+F00bkR08NNk_F0
+RdClM8FD8kCF
+l8CkDRo)HEA0_D	NM_l)F
+LDHs$NsRsIF	M
+HbRk0Ns88RFU
+kk0b0NR80FN_kd0R
+8CMlkF8DlC
+FD8kCDRAN_M	]sCN0F_)lH
+DLssN$FRIsH	
+M0bkR8N8s
+RUFbk0k80RN_0NFRk0dM
+C88lFk
+DClkF8D)CRC]8_C0Ns_l)F
+LDHs$NsRsIF	M
+HbRk0Ns88RFU
+kk0b0NR80FN_kd0R
+8CMlkF8DlC
+FD8kCDRAk]C_C0Ns_l)F
+LDHs$NsRsIF	M
+HbRk0Ns88RFU
+kk0b0NR80FN_kd0R
+8CMlkF8DlC
+FD8kCNRb0s0CMC_oMC_EDsbC.H
+DLssN$FRIsH	
+M0bkRsNsFCI_MDNLC
+R4HkMb0sRNs_FI0C$bRHc
+M0bkRsNsF$I__#bFR
+4jHkMb0OR#sMCC_bG_F4#RjM
+HbRk0#COsC$M__#bFR
+4jFbk0ks0RFOl_F8Fs.
+RUFbk0ks0RCs0kMM_CNCLDRC4
+MF8l8CkD
+8lFkRDCb0N0C_sMo_CMEbCDCDs
+HNLssI$RF
+s	HkMb0sRNs_FICLMND4CR
+bHMkN0RsIsF_b0$C
+RcHkMb0sRNs_FI$F_b#jR4
+bHMk#0ROCsCM__GbRF#4Hj
+M0bkRs#OC_CM$F_b#jR4
+0FkbRk0s_FlOsFF8
+RUFbk0ks0RCs0kMM_CNCLDRC4
+MF8l8CkD
+8lFkRDCs8NMFxlHCDs
+HNLssI$RF
+s	HkMb0NRl#s0CBRD	4k
+F00bkR0Fk_08NN
+RcClM8FD8kCF
+l8CkDRI7FMs_qs_FI)
+FlDsHLNRs$I	Fs
+bHMkN0R8R8sUk
+F00bkR08NNk_F0
+RdClM8FD8kCF
+l8CkDRVpC0s_qs_FI)
+FlDsHLNRs$I	Fs
+bHMkN0R8R8sUk
+F00bkR08NNk_F0
+RdClM8FD8kCF
+l8CkDRo)HEq0_sIsF_l)F
+LDHs$NsRsIF	M
+HbRk0Ns88RFU
+kk0b0NR80FN_kd0R
+8CMlkF8DlC
+FD8kCbRz_sqsF)I_FDl
+HNLssI$RF
+s	HkMb08RN8UsR
+0FkbRk08NN0_0FkRCd
+MF8l8CkD
+8lFkRDCP
+oNDsHLNRs$I	Fs
+bHMkO0RD4	R
+0FkbRk0PHND8
+R4Fbk0ks0RF4IRjk
+F00bkRDOFR
+4jFbk0kE0R#O$MRF4
+kk0b0#RP$RMO4M
+C88lFk
+DClkF8DhCR O1_FsM0FCDDsH
+DLssN$FRIsH	
+M0bkR08NN
+R4HkMb0MRHORD	4k
+F00bkR0DNO4ER
+0FkbRk0OODF	
+R4Fbk0kF0Rk80_NR0NUM
+C88lFk
+DC
+
+@ 

@@ -1,0 +1,848 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03LR-1
+Install: C:\lscc\radiant\2023.1\synpbase
+OS: Windows 10 or later
+Hostname: LAB223F
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48I-6 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IZ         110                                     
+FD1P3DZ         201                                     
+                                                        
+Total FLOPS     311                100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block top:	311 (17.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   1097                                    
+INV                    38                                      
+CCU2_B                 239                                     
+                                                               
+Total LUTS             1135               100 %                
+Total CARRY CHAINS     239                100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block top:	1374 (78.25 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+IB           3                                       
+OB           10                                      
+                                                     
+TOTAL IO     13                 100 %                
+=====================================================
+Total IO PADS in the block top:	13 (0.74 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 28                                      
+VHI                 28                                      
+HSOSC               1                                       
+PLL_B               1                                       
+                                                            
+Total BLACK BOX     58                 100 %                
+============================================================
+Total BLACKBOX in the block top:	58 (3.30 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   NES_controller_0   ########
+Instance path:   controllerTwo                                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         8                                       
+                                                        
+Total FLOPS     8                  2.57 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block controllerTwo:	8 (0.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           10                                      
+                                                       
+Total LUTS     10                 0.8810 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block controllerTwo:	10 (0.57 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block controllerTwo:	2 (0.11 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   NES_controller_1   ########
+Instance path:   controllerOne                                        
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         28                                      
+                                                        
+Total FLOPS     28                 9 %                  
+========================================================
+Total SEQUENTIAL ELEMENTS in the block controllerOne:	28 (1.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   17                                      
+CCU2_B                 11                                      
+                                                               
+Total LUTS             17                 1.5 %                
+Total CARRY CHAINS     11                 4.6 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block controllerOne:	28 (1.59 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block controllerOne:	2 (0.11 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   game   ########
+Instance path:   game1                                    
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IZ         100                                     
+FD1P3DZ         155                                     
+                                                        
+Total FLOPS     255                82 %                 
+========================================================
+Total SEQUENTIAL ELEMENTS in the block game1:	255 (14.52 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   579                                     
+CCU2_B                 52                                      
+                                                               
+Total LUTS             579                51 %                 
+Total CARRY CHAINS     52                 21.8 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block game1:	631 (35.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+HSOSC               1                                       
+                                                            
+Total BLACK BOX     5                  8.62 %               
+============================================================
+Total BLACKBOX in the block game1:	5 (0.28 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   randomizer   ########
+Instance path:   game1.my_randomizer                            
+Parent Instance:   game1                                        
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         30                                      
+                                                        
+Total FLOPS     30                 9.65 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block game1.my_randomizer:	30 (1.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   14                                      
+CCU2_B                 13                                      
+                                                               
+Total LUTS             14                 1.23 %               
+Total CARRY CHAINS     13                 5.44 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block game1.my_randomizer:	27 (1.54 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+HSOSC               1                                       
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     3                  5.17 %               
+============================================================
+Total BLACKBOX in the block game1.my_randomizer:	3 (0.17 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   mypll   ########
+Instance path:   pllinst                                   
+===========================================================
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+PLL_B               1                                       
+                                                            
+Total BLACK BOX     5                  8.62 %               
+============================================================
+Total BLACKBOX in the block pllinst:	5 (0.28 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   mypll_ipgen_lscc_pll_Z1_layer1   ########
+Instance path:   pllinst.lscc_pll_inst                                              
+Parent Instance:   pllinst                                                          
+====================================================================================
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+PLL_B               1                                       
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     3                  5.17 %               
+============================================================
+Total BLACKBOX in the block pllinst.lscc_pll_inst:	3 (0.17 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen   ########
+Instance path:   mypattern                                       
+=================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   466                                     
+INV                    24                                      
+CCU2_B                 166                                     
+                                                               
+Total LUTS             490                43.2 %               
+Total CARRY CHAINS     166                69.5 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern:	656 (37.36 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 20                                      
+VHI                 20                                      
+                                                            
+Total BLACK BOX     40                 69 %                 
+============================================================
+Total BLACKBOX in the block mypattern:	40 (2.28 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   Arrow_Selector   ########
+Instance path:   mypattern.my_arrow_selector                        
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           117                                     
+                                                       
+Total LUTS     117                10.3 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_arrow_selector:	117 (6.66 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  6.9 %                
+============================================================
+Total BLACKBOX in the block mypattern.my_arrow_selector:	4 (0.23 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   Right_Arrow_Rom   ########
+Instance path:   mypattern.my_arrow_selector.Right_Arrow_Rom_inst    
+Parent Instance:   mypattern.my_arrow_selector                       
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           107                                     
+                                                       
+Total LUTS     107                9.43 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_arrow_selector.Right_Arrow_Rom_inst:	107 (6.09 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.my_arrow_selector.Right_Arrow_Rom_inst:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   Blank_Arrow_Selector   ########
+Instance path:   mypattern.my_blank_selector                              
+Parent Instance:   mypattern                                              
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           43                                      
+                                                       
+Total LUTS     43                 3.79 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_blank_selector:	43 (2.45 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  6.9 %                
+============================================================
+Total BLACKBOX in the block mypattern.my_blank_selector:	4 (0.23 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   Right_Blank_Rom   ########
+Instance path:   mypattern.my_blank_selector.Right_Arrow_Rom_inst    
+Parent Instance:   mypattern.my_blank_selector                       
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           43                                      
+                                                       
+Total LUTS     43                 3.79 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_blank_selector.Right_Arrow_Rom_inst:	43 (2.45 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.my_blank_selector.Right_Arrow_Rom_inst:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   Heart_Selector   ########
+Instance path:   mypattern.my_heart_selector                        
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           55                                      
+                                                       
+Total LUTS     55                 4.85 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_heart_selector:	55 (3.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  6.9 %                
+============================================================
+Total BLACKBOX in the block mypattern.my_heart_selector:	4 (0.23 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Red_Heart_Rom   ########
+Instance path:   mypattern.my_heart_selector.Red_Heart_Rom_inst    
+Parent Instance:   mypattern.my_heart_selector                     
+===================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           50                                      
+                                                       
+Total LUTS     50                 4.41 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.my_heart_selector.Red_Heart_Rom_inst:	50 (2.85 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.my_heart_selector.Red_Heart_Rom_inst:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   heart_helper_1   ########
+Instance path:   mypattern.gen_heart_helper.1.helper_p2             
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           3                                       
+                                                       
+Total LUTS     3                  0.2640 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_heart_helper.1.helper_p2:	3 (0.17 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_heart_helper.1.helper_p2:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   heart_helper_2   ########
+Instance path:   mypattern.gen_heart_helper.0.helper_p2             
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   2                                       
+CCU2_B                 2                                       
+                                                               
+Total LUTS             2                  0.1760 %             
+Total CARRY CHAINS     2                  0.8370 %             
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_heart_helper.0.helper_p2:	4 (0.23 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_heart_helper.0.helper_p2:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   heart_helper_3   ########
+Instance path:   mypattern.gen_heart_helper.2.helper_p1             
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   7                                       
+CCU2_B                 2                                       
+                                                               
+Total LUTS             7                  0.6170 %             
+Total CARRY CHAINS     2                  0.8370 %             
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_heart_helper.2.helper_p1:	9 (0.51 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_heart_helper.2.helper_p1:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   heart_helper_4   ########
+Instance path:   mypattern.gen_heart_helper.1.helper_p1             
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   10                                      
+CCU2_B                 2                                       
+                                                               
+Total LUTS             10                 0.8810 %             
+Total CARRY CHAINS     2                  0.8370 %             
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_heart_helper.1.helper_p1:	12 (0.68 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_heart_helper.1.helper_p1:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   heart_helper_5   ########
+Instance path:   mypattern.gen_heart_helper.0.helper_p1             
+Parent Instance:   mypattern                                        
+====================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   15                                      
+CCU2_B                 5                                       
+                                                               
+Total LUTS             15                 1.32 %               
+Total CARRY CHAINS     5                  2.09 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_heart_helper.0.helper_p1:	20 (1.14 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_heart_helper.0.helper_p1:	2 (0.11 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper   ########
+Instance path:   mypattern.gen_helper.0.helper                          
+Parent Instance:   mypattern                                            
+========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   23                                      
+CCU2_B                 19                                      
+                                                               
+Total LUTS             26                 2.29 %               
+Total CARRY CHAINS     19                 7.95 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper.0.helper:	45 (2.56 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper.0.helper:	2 (0.11 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper2   ########
+Instance path:   mypattern.gen_helper2.4.helper2                         
+Parent Instance:   mypattern                                             
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   13                                      
+CCU2_B                 20                                      
+                                                               
+Total LUTS             16                 1.41 %               
+Total CARRY CHAINS     20                 8.37 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper2.4.helper2:	36 (2.05 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper2.4.helper2:	2 (0.11 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper2_0   ########
+Instance path:   mypattern.gen_helper2.7.helper2                           
+Parent Instance:   mypattern                                               
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   15                                      
+CCU2_B                 20                                      
+                                                               
+Total LUTS             18                 1.59 %               
+Total CARRY CHAINS     20                 8.37 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper2.7.helper2:	38 (2.16 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper2.7.helper2:	2 (0.11 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper2_1   ########
+Instance path:   mypattern.gen_helper2.5.helper2                           
+Parent Instance:   mypattern                                               
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   19                                      
+CCU2_B                 19                                      
+                                                               
+Total LUTS             22                 1.94 %               
+Total CARRY CHAINS     19                 7.95 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper2.5.helper2:	41 (2.33 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper2.5.helper2:	2 (0.11 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper2_2   ########
+Instance path:   mypattern.gen_helper2.6.helper2                           
+Parent Instance:   mypattern                                               
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   16                                      
+CCU2_B                 19                                      
+                                                               
+Total LUTS             19                 1.67 %               
+Total CARRY CHAINS     19                 7.95 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper2.6.helper2:	38 (2.16 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper2.6.helper2:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper_0   ########
+Instance path:   mypattern.gen_helper.3.helper                            
+Parent Instance:   mypattern                                              
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   20                                      
+CCU2_B                 19                                      
+                                                               
+Total LUTS             23                 2.03 %               
+Total CARRY CHAINS     19                 7.95 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper.3.helper:	42 (2.39 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper.3.helper:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper_1   ########
+Instance path:   mypattern.gen_helper.1.helper                            
+Parent Instance:   mypattern                                              
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   13                                      
+CCU2_B                 19                                      
+                                                               
+Total LUTS             16                 1.41 %               
+Total CARRY CHAINS     19                 7.95 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper.1.helper:	35 (1.99 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper.1.helper:	2 (0.11 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   pattern_gen_helper_2   ########
+Instance path:   mypattern.gen_helper.2.helper                            
+Parent Instance:   mypattern                                              
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    3                                       
+LUT4                   10                                      
+CCU2_B                 20                                      
+                                                               
+Total LUTS             13                 1.15 %               
+Total CARRY CHAINS     20                 8.37 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block mypattern.gen_helper.2.helper:	33 (1.88 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block mypattern.gen_helper.2.helper:	2 (0.11 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   vga   ########
+Instance path:   vga1                                    
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IZ         10                                      
+FD1P3DZ         10                                      
+                                                        
+Total FLOPS     20                 6.43 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block vga1:	20 (1.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    14                                      
+LUT4                   25                                      
+CCU2_B                 10                                      
+                                                               
+Total LUTS             39                 3.44 %               
+Total CARRY CHAINS     10                 4.18 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block vga1:	49 (2.79 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  3.45 %               
+============================================================
+Total BLACKBOX in the block vga1:	2 (0.11 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

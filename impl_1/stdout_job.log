@@ -1,0 +1,97 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "13:36:32    10-Dec-2024",
+	"Working Directory" : "Z:/es4/Final-20241122T182447Z-001/Final/impl_1",
+	"Install" : "C:/lscc/radiant/2023.1/synpbase"
+},
+"hdl_info_gen" :{
+   "Start Time" : "13:36:01",
+   "Runtime" : "01s",
+   "Executable Run Time" : "01s",
+   "hdl_info_gen" : {
+      "executable" : "bin64/c_vhdl.exe",
+      "Run Directory" : "rev_147",
+      "Run State" : "Complete",
+      "Return Code" : "0",
+      "Has Errors" : "no",
+      "Run Start Time" : "13:36:01",
+      "Run Time" : "01s",
+      "Exe Run Time" : "01s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+},
+"impl_1" :{
+   "Start Time" : "13:36:03",
+   "Runtime" : "29s",
+   "Executable Run Time" : "25s",
+   "synthesis" : {
+      "Start Time" : "13:36:03",
+      "Runtime" : "29s",
+      "Executable Run Time" : "25s",
+      "compile" : {
+         "Start Time" : "13:36:03",
+         "Runtime" : "17s",
+         "Executable Run Time" : "13s",
+         "compile_flow" : {
+            "Start Time" : "13:36:03",
+            "Runtime" : "12s",
+            "Executable Run Time" : "10s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "Z:/es4/Final-20241122T182447Z-001/Final/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "13:36:03",
+               "Run Time" : "12s",
+               "Exe Run Time" : "10s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "Z:/es4/Final-20241122T182447Z-001/Final/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "13:36:15",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "Z:/es4/Final-20241122T182447Z-001/Final/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "13:36:15",
+            "Run Time" : "05s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "13:36:20",
+         "Runtime" : "12s",
+         "Executable Run Time" : "12s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "Z:/es4/Final-20241122T182447Z-001/Final/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "13:36:20",
+            "Run Time" : "12s",
+            "Exe Run Time" : "12s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

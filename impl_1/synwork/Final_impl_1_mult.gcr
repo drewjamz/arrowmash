@@ -1,0 +1,88 @@
+i controllerTwo.op_le®un7_outclock
+m 0 0
+u 1 8
+n ckid0_0 {t:controllerTwo.out_data[7:0].C} Clock Optimization not enabled
+p {t:controllerTwo.un5_outlatch.OUT[0]}{t:controllerTwo.out_data[7:0].C}
+e ckid0_0 {t:controllerTwo.out_data[7:0].C} lat
+d ckid0_0 {t:controllerTwo.op_le\.un7_outclock.OUT} lt Clock Optimization not enabled
+i controllerTwo.clock
+m 0 0
+u 1 8
+n ckid0_1 {t:controllerTwo.shift[7:0].C} Clock Optimization not enabled
+p {t:controllerTwo.clock_inferred_clock.OUT[0]}{t:controllerTwo.shift[7:0].C}
+e ckid0_1 {t:controllerTwo.shift[7:0].C} dff
+d ckid0_1 {t:controllerTwo.clock.OUT} and Clock Optimization not enabled
+i pllinst.lscc_pll_inst.outglobal_o
+m 0 0
+u 33 300
+n ckid0_2 {t:controllerTwo.counter[19:0].C} Clock Optimization not enabled
+p {p:controllerTwo.inclk}{t:controllerTwo.counter[19:0].C}
+e ckid0_2 {t:controllerTwo.counter[19:0].C} dff
+p {p:controllerOne.inclk}{t:controllerOne.counter[19:0].C}
+e ckid0_3 {t:controllerOne.counter[19:0].C} dff
+p {p:vga1.clk}{t:vga1.colcount[9:0].C}
+e ckid0_4 {t:vga1.colcount[9:0].C} dff
+p {p:game1.my_randomizer.masterClk}{t:game1.my_randomizer.countSlow[23:0].C}
+e ckid0_5 {t:game1.my_randomizer.countSlow[23:0].C} dff
+p {p:game1.inclk}{t:game1.arrow_enables[0:7].C}
+e ckid0_6 {t:game1.arrow_enables[0:7].C} dff
+d ckid0_2,ckid0_3,ckid0_4,ckid0_5,ckid0_6 {t:pllinst.lscc_pll_inst.u_PLL_B.OUTGLOBAL} PLL_B Clock Optimization not enabled
+i controllerOne.op_le®un7_outclock
+m 0 0
+u 1 8
+n ckid0_7 {t:controllerOne.out_data[7:0].C} Clock Optimization not enabled
+p {t:controllerOne.un5_outlatch.OUT[0]}{t:controllerOne.out_data[7:0].C}
+e ckid0_7 {t:controllerOne.out_data[7:0].C} lat
+d ckid0_7 {t:controllerOne.op_le\.un7_outclock.OUT} lt Clock Optimization not enabled
+i controllerOne.clock
+m 0 0
+u 1 8
+n ckid0_8 {t:controllerOne.shift[7:0].C} Clock Optimization not enabled
+p {t:controllerOne.clock_inferred_clock.OUT[0]}{t:controllerOne.shift[7:0].C}
+e ckid0_8 {t:controllerOne.shift[7:0].C} dff
+d ckid0_8 {t:controllerOne.clock.OUT} and Clock Optimization not enabled
+i mypattern.op_or®6®result_2
+m 0 0
+u 3 3
+n ckid0_9 {t:mypattern.current_displaying[0].C} Clock Optimization not enabled
+p {t:mypattern.op_or\.6\.result_2_inferred_clock.OUT[0]}{t:mypattern.current_displaying[0].C}
+e ckid0_9 {t:mypattern.current_displaying[0].C} latrs
+d ckid0_9 {t:mypattern.op_or\.6\.result_2.OUT} or Clock Optimization not enabled
+i game1.my_randomizer.clk_i
+m 0 0
+u 1 2
+p {t:game1.my_randomizer.osc.CLKHF}{t:game1.my_randomizer.clk_inferred_clock.I[0]}{t:game1.my_randomizer.clk_inferred_clock.OUT[0]}{t:game1.my_randomizer.counter[1:0].C}
+e ckid0_10 {t:game1.my_randomizer.counter[1:0].C} dff
+c ckid0_10 {t:game1.my_randomizer.osc.CLKHF} HSOSC Unsupported/too complex instance on clock path
+i mypattern.op_or®6®result_2_i
+m 0 0
+u 0 0
+i pllinst.lscc_pll_inst.outglobal_o_i
+m 0 0
+u 0 0
+i controllerOne.clock_i
+m 0 0
+u 0 0
+i controllerOne.un4_outclock
+m 0 0
+u 0 0
+i controllerOne.op_le®un7_outclock_i
+m 0 0
+u 0 0
+i controllerTwo.clock_i
+m 0 0
+u 0 0
+i controllerTwo.un4_outclock
+m 0 0
+u 0 0
+i controllerTwo.op_le®un7_outclock_i
+m 0 0
+u 0 0
+i pllinst.lscc_pll_inst.outcore_o
+m 0 0
+u 0 0
+i pllinst.lscc_pll_inst.intfbout_w
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

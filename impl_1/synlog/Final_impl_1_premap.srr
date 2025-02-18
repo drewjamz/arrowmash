@@ -1,0 +1,207 @@
+# Tue Dec 10 13:36:16 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03LR-1
+Install: C:\lscc\radiant\2023.1\synpbase
+OS: Windows 10 or later
+Hostname: LAB223F
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 062R, Built May 29 2023 11:06:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 138MB)
+
+Reading constraint file: Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1_cpe.ldc
+@L: Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1_scck.rpt 
+See clock summary report "Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":39:2:39:3|User-specified initial value defined for instance game1.my_randomizer.countSlow[23:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":32:8:32:9|User-specified initial value defined for instance game1.my_randomizer.counter[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_enables[0:7] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.pressedArrowTwo[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.pressedArrowOne[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.guardTwo[23:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.guardOne[23:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_7[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_6[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_3[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_2[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.checkFailTwo is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.checkFailOne is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_5[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_4[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_1[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_7[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_6[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_3[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_2[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_types_0[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_5[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_1[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_4[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.arrow_y_poss_0[8:1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.livesTwo[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.livesOne[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.newArrowCounter[24:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.dropCounter[19:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|User-specified initial value defined for instance game1.game_end is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":59:4:59:5|User-specified initial value defined for instance state_machine1.reset_game is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\pattern_gen.vhd":364:19:364:20|User-specified initial value defined for instance mypattern.current_displaying[0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\pattern_gen.vhd":364:19:364:20|User-specified initial value defined for instance mypattern.current_displaying[1] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\pattern_gen.vhd":364:19:364:20|User-specified initial value defined for instance mypattern.current_displaying[2] is being ignored due to limitations in architecture. 
+@W: FX1172 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":46:8:46:9|User-specified initial value defined for instance controllerTwo.counter[19:0] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 190MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+@N: BN115 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\top.vhd":151:1:151:14|Removing instance state_machine1 (in view: work.top(synth)) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":59:4:59:5|Removing sequential instance reset_game (in view: work.states(synth)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Removing sequential instance game_end (in view: work.game(synth)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":59:4:59:5|Removing sequential instance state_machine[0:2] (in view: work.states(synth)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":50:1:50:2|Removing sequential instance button_pressed[1] (in view: work.states(synth)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+@N: BN362 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\states.vhd":50:1:50:2|Removing sequential instance button_pressed[0] (in view: work.states(synth)) of type view:PrimLib.latr(prim) because it does not drive other instances.
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 193MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 193MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 194MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                         Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                         Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                        200.0 MHz     5.000         system       system_clkgroup           0    
+                                                                                                                                                
+0 -       mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     300  
+                                                                                                                                                
+0 -       NES_controller_0|op_le_un7_outclock_inferred_clock            200.0 MHz     5.000         inferred     Inferred_clkgroup_0_4     16   
+                                                                                                                                                
+0 -       NES_controller_1|op_le_un7_outclock_inferred_clock            200.0 MHz     5.000         inferred     Inferred_clkgroup_0_6     16   
+                                                                                                                                                
+0 -       pattern_gen|op_or_6_result_2_inferred_clock                   200.0 MHz     5.000         inferred     Inferred_clkgroup_0_7     3    
+                                                                                                                                                
+0 -       randomizer|clk_inferred_clock                                 200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     2    
+================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                              Clock     Source                                             Clock Pin                              Non-clock Pin     Non-clock Pin                       
+Clock                                                         Load      Pin                                                Seq Example                            Seq Example       Comb Example                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                        0         -                                                  -                                      -                 -                                   
+                                                                                                                                                                                                                        
+mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     300       pllinst.lscc_pll_inst.u_PLL_B.OUTGLOBAL(PLL_B)     controllerTwo.counter[19:0].C          -                 -                                   
+                                                                                                                                                                                                                        
+NES_controller_0|op_le_un7_outclock_inferred_clock            16        controllerTwo.op_le\.un7_outclock.OUT(lt)          controllerTwo.shift[7:0].C             -                 controllerTwo.un5_outlatch.I[0](inv)
+                                                                                                                                                                                                                        
+NES_controller_1|op_le_un7_outclock_inferred_clock            16        controllerOne.op_le\.un7_outclock.OUT(lt)          controllerOne.shift[7:0].C             -                 controllerOne.un5_outlatch.I[0](inv)
+                                                                                                                                                                                                                        
+pattern_gen|op_or_6_result_2_inferred_clock                   3         mypattern.op_or\.6\.result_2.OUT(or)               mypattern.current_displaying[2].C      -                 rgb[2:0].B[0](mux)                  
+                                                                                                                                                                                                                        
+randomizer|clk_inferred_clock                                 2         game1.my_randomizer.osc.CLKHF(HSOSC)               game1.my_randomizer.counter[1:0].C     -                 -                                   
+========================================================================================================================================================================================================================
+
+@W: MT530 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":39:2:39:3|Found inferred clock mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock which controls 300 sequential elements including game1.my_randomizer.countSlow[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":32:8:32:9|Found inferred clock randomizer|clk_inferred_clock which controls 2 sequential elements including game1.my_randomizer.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":74:8:74:9|Found inferred clock NES_controller_0|op_le_un7_outclock_inferred_clock which controls 16 sequential elements including controllerTwo.out_data[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":74:8:74:9|Found inferred clock NES_controller_1|op_le_un7_outclock_inferred_clock which controls 16 sequential elements including controllerOne.out_data[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\pattern_gen.vhd":364:19:364:20|Found inferred clock pattern_gen|op_or_6_result_2_inferred_clock which controls 3 sequential elements including mypattern.current_displaying[0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+6 gated/generated clock tree(s) driving 335 clock pin(s) of sequential element(s)
+0 instances converted, 335 sequential instances remain driven by gated/generated clocks
+
+=========================================== Non-Gated/Non-Generated Clocks ===========================================
+Clock Tree ID     Driving Element                   Drive Element Type     Fanout     Sample Instance                 
+----------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_10      game1.my_randomizer.osc.CLKHF     HSOSC                  2          game1.my_randomizer.counter[1:0]
+======================================================================================================================
+=========================================================================== Gated/Generated Clocks ===========================================================================
+Clock Tree ID     Driving Element                             Drive Element Type     Unconverted Fanout     Sample Instance                     Explanation                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       controllerTwo.op_le\.un7_outclock.OUT       lt                     8                      controllerTwo.out_data[7:0]         Clock Optimization not enabled
+@KP:ckid0_1       controllerTwo.clock.OUT                     and                    8                      controllerTwo.shift[7:0]            Clock Optimization not enabled
+@KP:ckid0_6       pllinst.lscc_pll_inst.u_PLL_B.OUTGLOBAL     PLL_B                  300                    game1.arrow_enables[0:7]            Clock Optimization not enabled
+@KP:ckid0_7       controllerOne.op_le\.un7_outclock.OUT       lt                     8                      controllerOne.out_data[7:0]         Clock Optimization not enabled
+@KP:ckid0_8       controllerOne.clock.OUT                     and                    8                      controllerOne.shift[7:0]            Clock Optimization not enabled
+@KP:ckid0_9       mypattern.op_or\.6\.result_2.OUT            or                     3                      mypattern.current_displaying[0]     Clock Optimization not enabled
+==============================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 194MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 196MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Tue Dec 10 13:36:19 2024
+
+###########################################################]

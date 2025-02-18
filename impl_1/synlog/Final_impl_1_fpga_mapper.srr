@@ -1,0 +1,1360 @@
+# Tue Dec 10 13:36:20 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03LR-1
+Install: C:\lscc\radiant\2023.1\synpbase
+OS: Windows 10 or later
+Hostname: LAB223F
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 062R, Built May 29 2023 11:06:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 138MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 138MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 138MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+@W: BN132 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":46:8:46:9|Removing sequential instance controllerTwo.counter[19:0] because it is equivalent to instance controllerOne.counter[19:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\radiant\2023.1\synpbase\lib\vhd2008\numeric.vhd":2101:9:2101:11|Removing user instance controllerTwo.op_gt.un3_outclock because it is equivalent to instance controllerOne.op_gt.un3_outclock. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":56:10:56:11|Removing user instance controllerOne.op_gt.un3_outclock_i because it is equivalent to instance controllerTwo.op_gt.un3_outclock_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\radiant\2023.1\synpbase\lib\vhd2008\numeric.vhd":2079:9:2079:12|Removing user instance controllerTwo.op_le.un7_outclock because it is equivalent to instance controllerOne.op_le.un7_outclock. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 193MB)
+
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":46:8:46:9|Found counter in view:work.top(synth) instance controllerOne.counter[19:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance guardTwo[23:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance guardOne[23:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance newArrowCounter[24:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance dropCounter[19:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":39:2:39:3|Found counter in view:work.randomizer(synth) instance countSlow[23:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 195MB)
+
+@W: BN132 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Removing sequential instance game1.dropCounter[19:0] because it is equivalent to instance controllerOne.counter[19:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 209MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 202MB peak: 210MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 203MB peak: 210MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 210MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 210MB)
+
+@W: FX553 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_arrow_rom.vhd":17:8:17:11|Could not implement Block ROM for mypattern.my_arrow_selector.Right_Arrow_Rom_inst.data_out_1[11:0].
+@W: FX553 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_blank_rom.vhd":17:8:17:11|Could not implement Block ROM for mypattern.my_blank_selector.Right_Arrow_Rom_inst.data_out_1_0[11:0].
+@W: FX553 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\red_heart_rom.vhd":17:8:17:11|Could not implement Block ROM for mypattern.my_heart_selector.Red_Heart_Rom_inst.data_out_1_0[8:0].
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\red_heart_rom.vhd":17:8:17:11|Found ROM mypattern.my_heart_selector.Red_Heart_Rom_inst.data_out_1_0[8:0] (in view: work.top(synth)) with 256 words by 9 bits.
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_blank_rom.vhd":17:8:17:11|Found ROM mypattern.my_blank_selector.Right_Arrow_Rom_inst.data_out_1_0[11:0] (in view: work.top(synth)) with 256 words by 12 bits.
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_arrow_rom.vhd":17:8:17:11|Found ROM mypattern.my_arrow_selector.Right_Arrow_Rom_inst.data_out_1[11:0] (in view: work.top(synth)) with 256 words by 12 bits.
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 207MB peak: 210MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 267MB peak: 267MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		   -13.95ns		1274 /       277
+   2		0h:00m:04s		   -13.95ns		1259 /       277
+   3		0h:00m:04s		   -13.95ns		1259 /       277
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[7] (in view: work.top(synth)) with 19 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[3] (in view: work.top(synth)) with 16 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[2] (in view: work.top(synth)) with 15 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[2] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[3] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[8] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[6] (in view: work.top(synth)) with 15 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[5] (in view: work.top(synth)) with 17 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[8] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[6] (in view: work.top(synth)) with 13 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[1] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[7] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[5] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[5] (in view: work.top(synth)) with 14 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[3] (in view: work.top(synth)) with 9 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[2] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[4] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[3] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[2] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[2] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[8] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[3] (in view: work.top(synth)) with 9 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[3] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[2] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[6] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[4] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[6] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[4] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[7] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[7] (in view: work.top(synth)) with 13 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[7] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[1] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[1] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[1] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+Timing driven replication report
+Added 34 Registers via timing driven replication
+Added 34 LUTs via timing driven replication
+
+   4		0h:00m:05s		   -11.18ns		1411 /       311
+   5		0h:00m:05s		   -11.18ns		1416 /       311
+   6		0h:00m:05s		   -11.18ns		1416 /       311
+
+
+   7		0h:00m:05s		   -10.53ns		1417 /       311
+   8		0h:00m:05s		   -10.53ns		1417 /       311
+   9		0h:00m:05s		   -10.53ns		1418 /       311
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 277MB peak: 277MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 277MB peak: 277MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 277MB peak: 277MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 277MB peak: 278MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 225MB peak: 278MB)
+
+Writing Analyst data base Z:\es4\Final-20241122T182447Z-001\Final\impl_1\synwork\Final_impl_1_m.srm
+Warning: Found 19 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[7]
+1) instance shift_RNI8B9A[7] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[7] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[7]
+    input  pin controllerOne.shift_RNI8B9A[7]/B
+    instance   controllerOne.shift_RNI8B9A[7] (cell LUT4)
+    output pin controllerOne.shift_RNI8B9A[7]/Z
+    net        game1.shift_RNI8B9A_0[7]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[6]
+2) instance shift_RNI7A9A[6] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[6] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[6]
+    input  pin controllerOne.shift_RNI7A9A[6]/B
+    instance   controllerOne.shift_RNI7A9A[6] (cell LUT4)
+    output pin controllerOne.shift_RNI7A9A[6]/Z
+    net        game1.shift_RNI7A9A_0[6]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[5]
+3) instance shift_RNI699A[5] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[5] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[5]
+    input  pin controllerOne.shift_RNI699A[5]/B
+    instance   controllerOne.shift_RNI699A[5] (cell LUT4)
+    output pin controllerOne.shift_RNI699A[5]/Z
+    net        game1.shift_RNI699A_0[5]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[3]
+4) instance shift_RNI479A[3] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[3] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[3]
+    input  pin controllerOne.shift_RNI479A[3]/B
+    instance   controllerOne.shift_RNI479A[3] (cell LUT4)
+    output pin controllerOne.shift_RNI479A[3]/Z
+    net        game1.shift_RNI479A_0[3]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[4]
+5) instance shift_RNI589A[4] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[4] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[4]
+    input  pin controllerOne.shift_RNI589A[4]/B
+    instance   controllerOne.shift_RNI589A[4] (cell LUT4)
+    output pin controllerOne.shift_RNI589A[4]/Z
+    net        game1.shift_RNI589A_0[4]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[0]
+6) instance shift_RNI149A[0] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[0] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[0]
+    input  pin controllerOne.shift_RNI149A[0]/B
+    instance   controllerOne.shift_RNI149A[0] (cell LUT4)
+    output pin controllerOne.shift_RNI149A[0]/Z
+    net        game1.shift_RNI149A_0[0]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[1]
+7) instance shift_RNI259A[1] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[1] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[1]
+    input  pin controllerOne.shift_RNI259A[1]/B
+    instance   controllerOne.shift_RNI259A[1] (cell LUT4)
+    output pin controllerOne.shift_RNI259A[1]/Z
+    net        game1.shift_RNI259A_0[1]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[2]
+8) instance shift_RNI369A[2] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[2] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[2]
+    input  pin controllerOne.shift_RNI369A[2]/B
+    instance   controllerOne.shift_RNI369A[2] (cell LUT4)
+    output pin controllerOne.shift_RNI369A[2]/Z
+    net        game1.shift_RNI369A_0[2]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[2]
+9) instance shift_RNIJLTA[2] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[2] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[2]
+    input  pin controllerTwo.shift_RNIJLTA[2]/B
+    instance   controllerTwo.shift_RNIJLTA[2] (cell LUT4)
+    output pin controllerTwo.shift_RNIJLTA[2]/Z
+    net        game1.shift_RNIJLTA_0[2]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[3]
+10) instance shift_RNIKMTA[3] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[3] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[3]
+    input  pin controllerTwo.shift_RNIKMTA[3]/B
+    instance   controllerTwo.shift_RNIKMTA[3] (cell LUT4)
+    output pin controllerTwo.shift_RNIKMTA[3]/Z
+    net        game1.shift_RNIKMTA_0[3]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[0]
+11) instance shift_RNIHJTA[0] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[0] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[0]
+    input  pin controllerTwo.shift_RNIHJTA[0]/B
+    instance   controllerTwo.shift_RNIHJTA[0] (cell LUT4)
+    output pin controllerTwo.shift_RNIHJTA[0]/Z
+    net        game1.shift_RNIHJTA_0[0]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[1]
+12) instance shift_RNIIKTA[1] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[1] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[1]
+    input  pin controllerTwo.shift_RNIIKTA[1]/B
+    instance   controllerTwo.shift_RNIIKTA[1] (cell LUT4)
+    output pin controllerTwo.shift_RNIIKTA[1]/Z
+    net        game1.shift_RNIIKTA_0[1]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[4]
+13) instance shift_RNILNTA[4] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[4] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[4]
+    input  pin controllerTwo.shift_RNILNTA[4]/B
+    instance   controllerTwo.shift_RNILNTA[4] (cell LUT4)
+    output pin controllerTwo.shift_RNILNTA[4]/Z
+    net        game1.shift_RNILNTA_0[4]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[5]
+14) instance shift_RNIMOTA[5] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[5] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[5]
+    input  pin controllerTwo.shift_RNIMOTA[5]/B
+    instance   controllerTwo.shift_RNIMOTA[5] (cell LUT4)
+    output pin controllerTwo.shift_RNIMOTA[5]/Z
+    net        game1.shift_RNIMOTA_0[5]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[6]
+15) instance shift_RNINPTA[6] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[6] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[6]
+    input  pin controllerTwo.shift_RNINPTA[6]/B
+    instance   controllerTwo.shift_RNINPTA[6] (cell LUT4)
+    output pin controllerTwo.shift_RNINPTA[6]/Z
+    net        game1.shift_RNINPTA_0[6]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[7]
+16) instance shift_RNIOQTA[7] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[7] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[7]
+    input  pin controllerTwo.shift_RNIOQTA[7]/B
+    instance   controllerTwo.shift_RNIOQTA[7] (cell LUT4)
+    output pin controllerTwo.shift_RNIOQTA[7]/Z
+    net        game1.shift_RNIOQTA_0[7]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[2]
+17) instance op_or\.6\.result_2_inferred_clock_RNI9HJK2 (in view: work.pattern_gen(netlist)), output net current_displaying[2] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[2]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11/D
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11/Z
+    net        mypattern.current_displaying_latch[2]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2/Z
+    net        mypattern.current_displaying[2]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[1]
+18) instance op_or\.6\.result_2_inferred_clock_RNI6CP74 (in view: work.pattern_gen(netlist)), output net current_displaying[1] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[1]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74/Z
+    net        mypattern.current_displaying[1]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[0]
+19) instance op_or\.6\.result_2_inferred_clock_RNI4AH16 (in view: work.pattern_gen(netlist)), output net current_displaying[0] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[0]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3/Z
+    net        mypattern.current_displaying_latch[0]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16/Z
+    net        mypattern.current_displaying[0]
+End of loops
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 275MB peak: 278MB)
+
+Writing Verilog Simulation files
+@W: BW110 :|Renaming port randomizer due to collision with Verilog/ System Verilog reserved word 
+    rand[3:0] --> rand_Z[3:0]
+
+Writing scf file... (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 276MB peak: 278MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW150 :|Clock NES_controller_0|clock_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+@W: BW150 :|Clock NES_controller_1|clock_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 276MB peak: 278MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 276MB peak: 278MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 271MB peak: 278MB)
+
+Warning: Found 19 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[7]
+1) instance shift_RNI8B9A[7] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[7] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[7]
+    input  pin controllerOne.shift_RNI8B9A[7]/B
+    instance   controllerOne.shift_RNI8B9A[7] (cell LUT4)
+    output pin controllerOne.shift_RNI8B9A[7]/Z
+    net        game1.shift_RNI8B9A_0[7]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[6]
+2) instance shift_RNI7A9A[6] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[6] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[6]
+    input  pin controllerOne.shift_RNI7A9A[6]/B
+    instance   controllerOne.shift_RNI7A9A[6] (cell LUT4)
+    output pin controllerOne.shift_RNI7A9A[6]/Z
+    net        game1.shift_RNI7A9A_0[6]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[5]
+3) instance shift_RNI699A[5] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[5] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[5]
+    input  pin controllerOne.shift_RNI699A[5]/B
+    instance   controllerOne.shift_RNI699A[5] (cell LUT4)
+    output pin controllerOne.shift_RNI699A[5]/Z
+    net        game1.shift_RNI699A_0[5]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[3]
+4) instance shift_RNI479A[3] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[3] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[3]
+    input  pin controllerOne.shift_RNI479A[3]/B
+    instance   controllerOne.shift_RNI479A[3] (cell LUT4)
+    output pin controllerOne.shift_RNI479A[3]/Z
+    net        game1.shift_RNI479A_0[3]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[4]
+5) instance shift_RNI589A[4] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[4] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[4]
+    input  pin controllerOne.shift_RNI589A[4]/B
+    instance   controllerOne.shift_RNI589A[4] (cell LUT4)
+    output pin controllerOne.shift_RNI589A[4]/Z
+    net        game1.shift_RNI589A_0[4]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[0]
+6) instance shift_RNI149A[0] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[0] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[0]
+    input  pin controllerOne.shift_RNI149A[0]/B
+    instance   controllerOne.shift_RNI149A[0] (cell LUT4)
+    output pin controllerOne.shift_RNI149A[0]/Z
+    net        game1.shift_RNI149A_0[0]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[1]
+7) instance shift_RNI259A[1] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[1] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[1]
+    input  pin controllerOne.shift_RNI259A[1]/B
+    instance   controllerOne.shift_RNI259A[1] (cell LUT4)
+    output pin controllerOne.shift_RNI259A[1]/Z
+    net        game1.shift_RNI259A_0[1]
+@W: BN137 :|Found combinational loop during mapping at net controllerOne.outDataNesOne[2]
+8) instance shift_RNI369A[2] (in view: work.NES_controller_1(netlist)), output net outDataNesOne[2] (in view: work.NES_controller_1(netlist))
+    net        controllerOne.outDataNesOne[2]
+    input  pin controllerOne.shift_RNI369A[2]/B
+    instance   controllerOne.shift_RNI369A[2] (cell LUT4)
+    output pin controllerOne.shift_RNI369A[2]/Z
+    net        game1.shift_RNI369A_0[2]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[2]
+9) instance shift_RNIJLTA[2] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[2] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[2]
+    input  pin controllerTwo.shift_RNIJLTA[2]/B
+    instance   controllerTwo.shift_RNIJLTA[2] (cell LUT4)
+    output pin controllerTwo.shift_RNIJLTA[2]/Z
+    net        game1.shift_RNIJLTA_0[2]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[3]
+10) instance shift_RNIKMTA[3] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[3] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[3]
+    input  pin controllerTwo.shift_RNIKMTA[3]/B
+    instance   controllerTwo.shift_RNIKMTA[3] (cell LUT4)
+    output pin controllerTwo.shift_RNIKMTA[3]/Z
+    net        game1.shift_RNIKMTA_0[3]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[0]
+11) instance shift_RNIHJTA[0] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[0] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[0]
+    input  pin controllerTwo.shift_RNIHJTA[0]/B
+    instance   controllerTwo.shift_RNIHJTA[0] (cell LUT4)
+    output pin controllerTwo.shift_RNIHJTA[0]/Z
+    net        game1.shift_RNIHJTA_0[0]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[1]
+12) instance shift_RNIIKTA[1] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[1] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[1]
+    input  pin controllerTwo.shift_RNIIKTA[1]/B
+    instance   controllerTwo.shift_RNIIKTA[1] (cell LUT4)
+    output pin controllerTwo.shift_RNIIKTA[1]/Z
+    net        game1.shift_RNIIKTA_0[1]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[4]
+13) instance shift_RNILNTA[4] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[4] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[4]
+    input  pin controllerTwo.shift_RNILNTA[4]/B
+    instance   controllerTwo.shift_RNILNTA[4] (cell LUT4)
+    output pin controllerTwo.shift_RNILNTA[4]/Z
+    net        game1.shift_RNILNTA_0[4]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[5]
+14) instance shift_RNIMOTA[5] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[5] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[5]
+    input  pin controllerTwo.shift_RNIMOTA[5]/B
+    instance   controllerTwo.shift_RNIMOTA[5] (cell LUT4)
+    output pin controllerTwo.shift_RNIMOTA[5]/Z
+    net        game1.shift_RNIMOTA_0[5]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[6]
+15) instance shift_RNINPTA[6] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[6] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[6]
+    input  pin controllerTwo.shift_RNINPTA[6]/B
+    instance   controllerTwo.shift_RNINPTA[6] (cell LUT4)
+    output pin controllerTwo.shift_RNINPTA[6]/Z
+    net        game1.shift_RNINPTA_0[6]
+@W: BN137 :|Found combinational loop during mapping at net controllerTwo.outDataNesTwo[7]
+16) instance shift_RNIOQTA[7] (in view: work.NES_controller_0(netlist)), output net outDataNesTwo[7] (in view: work.NES_controller_0(netlist))
+    net        controllerTwo.outDataNesTwo[7]
+    input  pin controllerTwo.shift_RNIOQTA[7]/B
+    instance   controllerTwo.shift_RNIOQTA[7] (cell LUT4)
+    output pin controllerTwo.shift_RNIOQTA[7]/Z
+    net        game1.shift_RNIOQTA_0[7]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[2]
+17) instance op_or\.6\.result_2_inferred_clock_RNI9HJK2 (in view: work.pattern_gen(netlist)), output net current_displaying[2] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[2]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11/D
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNICMD11/Z
+    net        mypattern.current_displaying_latch[2]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI9HJK2/Z
+    net        mypattern.current_displaying[2]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[1]
+18) instance op_or\.6\.result_2_inferred_clock_RNI6CP74 (in view: work.pattern_gen(netlist)), output net current_displaying[1] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[1]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI6CP74/Z
+    net        mypattern.current_displaying[1]
+@W: BN137 :|Found combinational loop during mapping at net mypattern.current_displaying[0]
+19) instance op_or\.6\.result_2_inferred_clock_RNI4AH16 (in view: work.pattern_gen(netlist)), output net current_displaying[0] (in view: work.pattern_gen(netlist))
+    net        mypattern.current_displaying[0]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNIQMLR3/Z
+    net        mypattern.current_displaying_latch[0]
+    input  pin mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16/B
+    instance   mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16 (cell LUT4)
+    output pin mypattern.op_or\.6\.result_2_inferred_clock_RNI4AH16/Z
+    net        mypattern.current_displaying[0]
+End of loops
+@W: MT246 :"z:\es4\final-20241122t182447z-001\final\mypll\rtl\mypll.v":202:69:202:75|Blackbox PLL_B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":26:4:26:6|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net pllinst.lscc_pll_inst.intclk.
+@W: MT420 |Found inferred clock randomizer|clk_inferred_clock with period 5.00ns. Please declare a user-defined clock on net game1.my_randomizer.clk.
+@W: MT420 |Found inferred clock NES_controller_0|op_le_un7_outclock_inferred_clock with period 5.00ns. Please declare a user-defined clock on net controllerTwo.un7_outclock.
+@W: MT420 |Found inferred clock NES_controller_1|op_le_un7_outclock_inferred_clock with period 5.00ns. Please declare a user-defined clock on net controllerOne.un7_outclock.
+@W: MT420 |Found inferred clock pattern_gen|op_or_6_result_2_inferred_clock with period 5.00ns. Please declare a user-defined clock on net mypattern.result_2.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Dec 10 13:36:30 2024
+#
+
+
+Top view:               top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    Z:\es4\Final-20241122T182447Z-001\Final\impl_1\Final_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -21.383
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                                                              Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock                                                Frequency     Frequency     Period        Period        Slack       Type         Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NES_controller_0|op_le_un7_outclock_inferred_clock            200.0 MHz     284.2 MHz     5.000         3.519         1.481       inferred     Inferred_clkgroup_0_4
+NES_controller_1|op_le_un7_outclock_inferred_clock            200.0 MHz     284.2 MHz     5.000         3.519         1.481       inferred     Inferred_clkgroup_0_6
+mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     200.0 MHz     37.9 MHz      5.000         26.383        -21.383     inferred     Inferred_clkgroup_0_1
+pattern_gen|op_or_6_result_2_inferred_clock                   200.0 MHz     NA            5.000         NA            NA          inferred     Inferred_clkgroup_0_7
+randomizer|clk_inferred_clock                                 200.0 MHz     211.9 MHz     5.000         4.718         0.282       inferred     Inferred_clkgroup_0_2
+System                                                        200.0 MHz     143.8 MHz     5.000         6.952         -1.952      system       system_clkgroup      
+====================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                   Ending                                                     |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                     System                                                     |  5.000       5.000    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                     NES_controller_0|op_le_un7_outclock_inferred_clock         |  5.000       -1.952   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                     NES_controller_1|op_le_un7_outclock_inferred_clock         |  5.000       -1.952   |  No paths    -      |  No paths    -      |  No paths    -    
+mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  System                                                     |  5.000       -5.224   |  No paths    -      |  No paths    -      |  No paths    -    
+mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  |  5.000       -21.383  |  No paths    -      |  No paths    -      |  No paths    -    
+randomizer|clk_inferred_clock                              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+randomizer|clk_inferred_clock                              randomizer|clk_inferred_clock                              |  5.000       0.282    |  No paths    -      |  No paths    -      |  No paths    -    
+NES_controller_0|op_le_un7_outclock_inferred_clock         mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+NES_controller_0|op_le_un7_outclock_inferred_clock         NES_controller_0|op_le_un7_outclock_inferred_clock         |  5.000       1.481    |  No paths    -      |  No paths    -      |  No paths    -    
+NES_controller_1|op_le_un7_outclock_inferred_clock         mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+NES_controller_1|op_le_un7_outclock_inferred_clock         NES_controller_1|op_le_un7_outclock_inferred_clock         |  5.000       1.481    |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: NES_controller_0|op_le_un7_outclock_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                                Arrival          
+Instance                   Reference                                              Type        Pin     Net          Time        Slack
+                           Clock                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------
+controllerTwo.shift[0]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[0]     0.796       1.481
+controllerTwo.shift[1]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[1]     0.796       1.481
+controllerTwo.shift[2]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[2]     0.796       1.481
+controllerTwo.shift[3]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[3]     0.796       1.481
+controllerTwo.shift[4]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[4]     0.796       1.481
+controllerTwo.shift[5]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[5]     0.796       1.481
+controllerTwo.shift[6]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[6]     0.796       1.481
+====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                                Required          
+Instance                   Reference                                              Type        Pin     Net          Time         Slack
+                           Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------
+controllerTwo.shift[1]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[0]     4.845        1.481
+controllerTwo.shift[2]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[1]     4.845        1.481
+controllerTwo.shift[3]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[2]     4.845        1.481
+controllerTwo.shift[4]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[3]     4.845        1.481
+controllerTwo.shift[5]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[4]     4.845        1.481
+controllerTwo.shift[6]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[5]     4.845        1.481
+controllerTwo.shift[7]     NES_controller_0|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[6]     4.845        1.481
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      3.364
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.481
+
+    Number of logic level(s):                0
+    Starting point:                          controllerTwo.shift[0] / Q
+    Ending point:                            controllerTwo.shift[1] / D
+    The start point is clocked by            NES_controller_0|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            NES_controller_0|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+controllerTwo.shift[0]     FD1P3DZ     Q        Out     0.796     0.796 r     -         
+shift[0]                   Net         -        -       2.568     -           2         
+controllerTwo.shift[1]     FD1P3DZ     D        In      -         3.364 r     -         
+========================================================================================
+Total path delay (propagation time + setup) of 3.519 is 0.951(27.0%) logic and 2.568(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: NES_controller_1|op_le_un7_outclock_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                                Arrival          
+Instance                   Reference                                              Type        Pin     Net          Time        Slack
+                           Clock                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------
+controllerOne.shift[0]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[0]     0.796       1.481
+controllerOne.shift[1]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[1]     0.796       1.481
+controllerOne.shift[2]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[2]     0.796       1.481
+controllerOne.shift[3]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[3]     0.796       1.481
+controllerOne.shift[4]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[4]     0.796       1.481
+controllerOne.shift[5]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[5]     0.796       1.481
+controllerOne.shift[6]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     Q       shift[6]     0.796       1.481
+====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                                Required          
+Instance                   Reference                                              Type        Pin     Net          Time         Slack
+                           Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------
+controllerOne.shift[1]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[0]     4.845        1.481
+controllerOne.shift[2]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[1]     4.845        1.481
+controllerOne.shift[3]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[2]     4.845        1.481
+controllerOne.shift[4]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[3]     4.845        1.481
+controllerOne.shift[5]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[4]     4.845        1.481
+controllerOne.shift[6]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[5]     4.845        1.481
+controllerOne.shift[7]     NES_controller_1|op_le_un7_outclock_inferred_clock     FD1P3DZ     D       shift[6]     4.845        1.481
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      3.364
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.481
+
+    Number of logic level(s):                0
+    Starting point:                          controllerOne.shift[0] / Q
+    Ending point:                            controllerOne.shift[1] / D
+    The start point is clocked by            NES_controller_1|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            NES_controller_1|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+controllerOne.shift[0]     FD1P3DZ     Q        Out     0.796     0.796 r     -         
+shift[0]                   Net         -        -       2.568     -           2         
+controllerOne.shift[1]     FD1P3DZ     D        In      -         3.364 r     -         
+========================================================================================
+Total path delay (propagation time + setup) of 3.519 is 0.951(27.0%) logic and 2.568(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                                                              Arrival            
+Instance                      Reference                                                     Type        Pin     Net                 Time        Slack  
+                              Clock                                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[10]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[10]     0.796       -21.383
+controllerOne.counter[11]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[11]     0.796       -21.311
+controllerOne.counter[13]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[13]     0.796       -21.290
+controllerOne.counter[16]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[16]     0.796       -21.280
+controllerOne.counter[14]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[14]     0.796       -21.218
+controllerOne.counter[17]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[17]     0.796       -21.187
+controllerOne.counter[18]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[18]     0.796       -21.187
+controllerOne.counter[19]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[19]     0.796       -21.094
+controllerOne.counter[9]      mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[9]      0.796       -19.454
+controllerOne.counter[15]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3DZ     Q       dropCounter[15]     0.796       -19.382
+=======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                                                            Required            
+Instance                             Reference                                                     Type        Pin     Net                               Time         Slack  
+                                     Clock                                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+game1.arrow_y_poss_6_esr[8]          mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     SP      arrow_y_poss_6_0_sqmuxa_1_i_0     4.845        -11.366
+game1.arrow_y_poss_6_fast_esr[8]     mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     SP      arrow_y_poss_6_0_sqmuxa_1_i_0     4.845        -11.366
+game1.arrow_y_poss_7[1]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[1]              4.845        -9.664 
+game1.arrow_y_poss_7_esr[8]          mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     SP      arrow_y_poss_7_0_sqmuxa_1_i_0     4.845        -9.664 
+game1.arrow_y_poss_7[2]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[2]              4.845        -9.633 
+game1.arrow_y_poss_7[3]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[3]              4.845        -9.633 
+game1.arrow_y_poss_7[4]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[4]              4.845        -9.633 
+game1.arrow_y_poss_7[5]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[5]              4.845        -9.633 
+game1.arrow_y_poss_7[6]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_7_en[6]              4.845        -9.633 
+game1.arrow_y_poss_5[1]              mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock     FD1P3IZ     D       arrow_y_poss_5_en[1]              4.845        -9.561 
+=============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      26.228
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -21.383
+
+    Number of logic level(s):                12
+    Starting point:                          controllerOne.counter[10] / Q
+    Ending point:                            game1.checkFailOne / D
+    The start point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[10]                                    FD1P3DZ     Q        Out     0.796     0.796 f      -         
+dropCounter[10]                                              Net         -        -       1.599     -            3         
+game1.g0_4                                                   LUT4        A        In      -         2.395 f      -         
+game1.g0_4                                                   LUT4        Z        Out     0.661     3.056 r      -         
+g0_5                                                         Net         -        -       1.371     -            1         
+game1.g0_1                                                   LUT4        C        In      -         4.427 r      -         
+game1.g0_1                                                   LUT4        Z        Out     0.558     4.986 r      -         
+N_23_mux                                                     Net         -        -       1.371     -            2         
+game1.N_24_i                                                 LUT4        A        In      -         6.356 r      -         
+game1.N_24_i                                                 LUT4        Z        Out     0.569     6.925 f      -         
+N_24_i                                                       Net         -        -       1.371     -            4         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        A        In      -         8.296 f      -         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        Z        Out     0.661     8.957 r      -         
+un7_outclock_i                                               Net         -        -       1.371     -            9         
+controllerOne.shift_RNI8B9A[7]                               LUT4        A        In      -         10.329 r     -         
+controllerOne.shift_RNI8B9A[7]                               LUT4        Z        Out     0.661     10.990 r     -         
+outDataNesOne[7]                                             Net         -        -       1.371     -            5         
+game1.pressedarrowone4_1                                     LUT4        A        In      -         12.361 r     -         
+game1.pressedarrowone4_1                                     LUT4        Z        Out     0.661     13.023 r     -         
+guardOnee_0_5                                                Net         -        -       1.371     -            2         
+game1.pressedarrowone4                                       LUT4        A        In      -         14.393 r     -         
+game1.pressedarrowone4                                       LUT4        Z        Out     0.661     15.055 r     -         
+pressedarrowone4                                             Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2_0                                 LUT4        B        In      -         16.426 r     -         
+game1.un1_pressedarrowone2_0                                 LUT4        Z        Out     0.558     16.984 f     -         
+un1_pressedarrowone2_0_0                                     Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2                                   LUT4        C        In      -         18.355 f     -         
+game1.un1_pressedarrowone2                                   LUT4        Z        Out     0.517     18.872 f     -         
+un1_pressedarrowone2_0                                       Net         -        -       1.371     -            2         
+game1.checkFailOne_RNO_2                                     LUT4        B        In      -         20.243 f     -         
+game1.checkFailOne_RNO_2                                     LUT4        Z        Out     0.589     20.832 r     -         
+checkFailOne_0_sqmuxa                                        Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO_1                                     LUT4        B        In      -         22.203 r     -         
+game1.checkFailOne_RNO_1                                     LUT4        Z        Out     0.589     22.792 r     -         
+un1_arrow_types_3_1_sqmuxa_1_0_i                             Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO                                       LUT4        C        In      -         24.163 r     -         
+game1.checkFailOne_RNO                                       LUT4        Z        Out     0.558     24.721 r     -         
+checkFailOne_set                                             Net         -        -       1.507     -            1         
+game1.checkFailOne                                           FD1P3IZ     D        In      -         26.228 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 26.383 is 8.196(31.1%) logic and 18.187(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      26.187
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -21.342
+
+    Number of logic level(s):                12
+    Starting point:                          controllerOne.counter[10] / Q
+    Ending point:                            game1.checkFailOne / D
+    The start point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[10]                                    FD1P3DZ     Q        Out     0.796     0.796 f      -         
+dropCounter[10]                                              Net         -        -       1.599     -            3         
+game1.g0_4                                                   LUT4        A        In      -         2.395 f      -         
+game1.g0_4                                                   LUT4        Z        Out     0.661     3.056 r      -         
+g0_5                                                         Net         -        -       1.371     -            1         
+game1.g0_1                                                   LUT4        C        In      -         4.427 r      -         
+game1.g0_1                                                   LUT4        Z        Out     0.558     4.986 r      -         
+N_23_mux                                                     Net         -        -       1.371     -            2         
+game1.N_24_i                                                 LUT4        A        In      -         6.356 r      -         
+game1.N_24_i                                                 LUT4        Z        Out     0.569     6.925 f      -         
+N_24_i                                                       Net         -        -       1.371     -            4         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        A        In      -         8.296 f      -         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        Z        Out     0.661     8.957 r      -         
+un7_outclock_i                                               Net         -        -       1.371     -            9         
+controllerOne.shift_RNI369A[2]                               LUT4        A        In      -         10.329 r     -         
+controllerOne.shift_RNI369A[2]                               LUT4        Z        Out     0.661     10.990 r     -         
+outDataNesOne[2]                                             Net         -        -       1.371     -            6         
+game1.pressedarrowone4_1_0                                   LUT4        A        In      -         12.361 r     -         
+game1.pressedarrowone4_1_0                                   LUT4        Z        Out     0.661     13.023 r     -         
+pressedarrowone4_1                                           Net         -        -       1.371     -            2         
+game1.pressedarrowone5_3                                     LUT4        A        In      -         14.393 r     -         
+game1.pressedarrowone5_3                                     LUT4        Z        Out     0.661     15.055 r     -         
+pressedarrowone5_3                                           Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2_0                                 LUT4        C        In      -         16.426 r     -         
+game1.un1_pressedarrowone2_0                                 LUT4        Z        Out     0.517     16.943 f     -         
+un1_pressedarrowone2_0_0                                     Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2                                   LUT4        C        In      -         18.314 f     -         
+game1.un1_pressedarrowone2                                   LUT4        Z        Out     0.517     18.831 f     -         
+un1_pressedarrowone2_0                                       Net         -        -       1.371     -            2         
+game1.checkFailOne_RNO_2                                     LUT4        B        In      -         20.202 f     -         
+game1.checkFailOne_RNO_2                                     LUT4        Z        Out     0.589     20.791 r     -         
+checkFailOne_0_sqmuxa                                        Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO_1                                     LUT4        B        In      -         22.162 r     -         
+game1.checkFailOne_RNO_1                                     LUT4        Z        Out     0.589     22.751 r     -         
+un1_arrow_types_3_1_sqmuxa_1_0_i                             Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO                                       LUT4        C        In      -         24.122 r     -         
+game1.checkFailOne_RNO                                       LUT4        Z        Out     0.558     24.680 r     -         
+checkFailOne_set                                             Net         -        -       1.507     -            1         
+game1.checkFailOne                                           FD1P3IZ     D        In      -         26.187 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 26.342 is 8.155(31.0%) logic and 18.187(69.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      26.156
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -21.311
+
+    Number of logic level(s):                12
+    Starting point:                          controllerOne.counter[11] / Q
+    Ending point:                            game1.checkFailOne / D
+    The start point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[11]                                    FD1P3DZ     Q        Out     0.796     0.796 f      -         
+dropCounter[11]                                              Net         -        -       1.599     -            3         
+game1.g0_4                                                   LUT4        B        In      -         2.395 f      -         
+game1.g0_4                                                   LUT4        Z        Out     0.589     2.984 r      -         
+g0_5                                                         Net         -        -       1.371     -            1         
+game1.g0_1                                                   LUT4        C        In      -         4.355 r      -         
+game1.g0_1                                                   LUT4        Z        Out     0.558     4.913 r      -         
+N_23_mux                                                     Net         -        -       1.371     -            2         
+game1.N_24_i                                                 LUT4        A        In      -         6.284 r      -         
+game1.N_24_i                                                 LUT4        Z        Out     0.569     6.853 f      -         
+N_24_i                                                       Net         -        -       1.371     -            4         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        A        In      -         8.224 f      -         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        Z        Out     0.661     8.885 r      -         
+un7_outclock_i                                               Net         -        -       1.371     -            9         
+controllerOne.shift_RNI8B9A[7]                               LUT4        A        In      -         10.256 r     -         
+controllerOne.shift_RNI8B9A[7]                               LUT4        Z        Out     0.661     10.918 r     -         
+outDataNesOne[7]                                             Net         -        -       1.371     -            5         
+game1.pressedarrowone4_1                                     LUT4        A        In      -         12.289 r     -         
+game1.pressedarrowone4_1                                     LUT4        Z        Out     0.661     12.950 r     -         
+guardOnee_0_5                                                Net         -        -       1.371     -            2         
+game1.pressedarrowone4                                       LUT4        A        In      -         14.321 r     -         
+game1.pressedarrowone4                                       LUT4        Z        Out     0.661     14.983 r     -         
+pressedarrowone4                                             Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2_0                                 LUT4        B        In      -         16.354 r     -         
+game1.un1_pressedarrowone2_0                                 LUT4        Z        Out     0.558     16.912 f     -         
+un1_pressedarrowone2_0_0                                     Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2                                   LUT4        C        In      -         18.283 f     -         
+game1.un1_pressedarrowone2                                   LUT4        Z        Out     0.517     18.800 f     -         
+un1_pressedarrowone2_0                                       Net         -        -       1.371     -            2         
+game1.checkFailOne_RNO_2                                     LUT4        B        In      -         20.171 f     -         
+game1.checkFailOne_RNO_2                                     LUT4        Z        Out     0.589     20.760 r     -         
+checkFailOne_0_sqmuxa                                        Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO_1                                     LUT4        B        In      -         22.131 r     -         
+game1.checkFailOne_RNO_1                                     LUT4        Z        Out     0.589     22.720 r     -         
+un1_arrow_types_3_1_sqmuxa_1_0_i                             Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO                                       LUT4        C        In      -         24.091 r     -         
+game1.checkFailOne_RNO                                       LUT4        Z        Out     0.558     24.649 r     -         
+checkFailOne_set                                             Net         -        -       1.507     -            1         
+game1.checkFailOne                                           FD1P3IZ     D        In      -         26.156 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 26.311 is 8.124(30.9%) logic and 18.187(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      26.156
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -21.311
+
+    Number of logic level(s):                12
+    Starting point:                          controllerOne.counter[10] / Q
+    Ending point:                            game1.checkFailOne / D
+    The start point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[10]                                    FD1P3DZ     Q        Out     0.796     0.796 f      -         
+dropCounter[10]                                              Net         -        -       1.599     -            3         
+game1.g0_4                                                   LUT4        A        In      -         2.395 f      -         
+game1.g0_4                                                   LUT4        Z        Out     0.661     3.056 r      -         
+g0_5                                                         Net         -        -       1.371     -            1         
+game1.g0_1                                                   LUT4        C        In      -         4.427 r      -         
+game1.g0_1                                                   LUT4        Z        Out     0.558     4.986 r      -         
+N_23_mux                                                     Net         -        -       1.371     -            2         
+game1.N_24_i                                                 LUT4        A        In      -         6.356 r      -         
+game1.N_24_i                                                 LUT4        Z        Out     0.569     6.925 f      -         
+N_24_i                                                       Net         -        -       1.371     -            4         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        A        In      -         8.296 f      -         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        Z        Out     0.661     8.957 r      -         
+un7_outclock_i                                               Net         -        -       1.371     -            9         
+controllerOne.shift_RNI7A9A[6]                               LUT4        A        In      -         10.329 r     -         
+controllerOne.shift_RNI7A9A[6]                               LUT4        Z        Out     0.661     10.990 r     -         
+outDataNesOne[6]                                             Net         -        -       1.371     -            3         
+game1.pressedarrowone4_1                                     LUT4        B        In      -         12.361 r     -         
+game1.pressedarrowone4_1                                     LUT4        Z        Out     0.589     12.950 r     -         
+guardOnee_0_5                                                Net         -        -       1.371     -            2         
+game1.pressedarrowone4                                       LUT4        A        In      -         14.321 r     -         
+game1.pressedarrowone4                                       LUT4        Z        Out     0.661     14.983 r     -         
+pressedarrowone4                                             Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2_0                                 LUT4        B        In      -         16.354 r     -         
+game1.un1_pressedarrowone2_0                                 LUT4        Z        Out     0.558     16.912 f     -         
+un1_pressedarrowone2_0_0                                     Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2                                   LUT4        C        In      -         18.283 f     -         
+game1.un1_pressedarrowone2                                   LUT4        Z        Out     0.517     18.800 f     -         
+un1_pressedarrowone2_0                                       Net         -        -       1.371     -            2         
+game1.checkFailOne_RNO_2                                     LUT4        B        In      -         20.171 f     -         
+game1.checkFailOne_RNO_2                                     LUT4        Z        Out     0.589     20.760 r     -         
+checkFailOne_0_sqmuxa                                        Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO_1                                     LUT4        B        In      -         22.131 r     -         
+game1.checkFailOne_RNO_1                                     LUT4        Z        Out     0.589     22.720 r     -         
+un1_arrow_types_3_1_sqmuxa_1_0_i                             Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO                                       LUT4        C        In      -         24.091 r     -         
+game1.checkFailOne_RNO                                       LUT4        Z        Out     0.558     24.649 r     -         
+checkFailOne_set                                             Net         -        -       1.507     -            1         
+game1.checkFailOne                                           FD1P3IZ     D        In      -         26.156 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 26.311 is 8.124(30.9%) logic and 18.187(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      26.156
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -21.311
+
+    Number of logic level(s):                12
+    Starting point:                          controllerOne.counter[10] / Q
+    Ending point:                            game1.checkFailOne / D
+    The start point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+controllerOne.counter[10]                                    FD1P3DZ     Q        Out     0.796     0.796 f      -         
+dropCounter[10]                                              Net         -        -       1.599     -            3         
+game1.g0_4                                                   LUT4        A        In      -         2.395 f      -         
+game1.g0_4                                                   LUT4        Z        Out     0.661     3.056 r      -         
+g0_5                                                         Net         -        -       1.371     -            1         
+game1.g0_1                                                   LUT4        C        In      -         4.427 r      -         
+game1.g0_1                                                   LUT4        Z        Out     0.558     4.986 r      -         
+N_23_mux                                                     Net         -        -       1.371     -            2         
+game1.N_24_i                                                 LUT4        A        In      -         6.356 r      -         
+game1.N_24_i                                                 LUT4        Z        Out     0.569     6.925 f      -         
+N_24_i                                                       Net         -        -       1.371     -            4         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        A        In      -         8.296 f      -         
+controllerOne.op_le\.un7_outclock_inferred_clock_RNI71K9     LUT4        Z        Out     0.661     8.957 r      -         
+un7_outclock_i                                               Net         -        -       1.371     -            9         
+controllerOne.shift_RNI369A[2]                               LUT4        A        In      -         10.329 r     -         
+controllerOne.shift_RNI369A[2]                               LUT4        Z        Out     0.661     10.990 r     -         
+outDataNesOne[2]                                             Net         -        -       1.371     -            6         
+game1.pressedarrowone4_1_0                                   LUT4        A        In      -         12.361 r     -         
+game1.pressedarrowone4_1_0                                   LUT4        Z        Out     0.661     13.023 r     -         
+pressedarrowone4_1                                           Net         -        -       1.371     -            2         
+game1.pressedarrowone4                                       LUT4        B        In      -         14.393 r     -         
+game1.pressedarrowone4                                       LUT4        Z        Out     0.589     14.983 r     -         
+pressedarrowone4                                             Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2_0                                 LUT4        B        In      -         16.354 r     -         
+game1.un1_pressedarrowone2_0                                 LUT4        Z        Out     0.558     16.912 f     -         
+un1_pressedarrowone2_0_0                                     Net         -        -       1.371     -            1         
+game1.un1_pressedarrowone2                                   LUT4        C        In      -         18.283 f     -         
+game1.un1_pressedarrowone2                                   LUT4        Z        Out     0.517     18.800 f     -         
+un1_pressedarrowone2_0                                       Net         -        -       1.371     -            2         
+game1.checkFailOne_RNO_2                                     LUT4        B        In      -         20.171 f     -         
+game1.checkFailOne_RNO_2                                     LUT4        Z        Out     0.589     20.760 r     -         
+checkFailOne_0_sqmuxa                                        Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO_1                                     LUT4        B        In      -         22.131 r     -         
+game1.checkFailOne_RNO_1                                     LUT4        Z        Out     0.589     22.720 r     -         
+un1_arrow_types_3_1_sqmuxa_1_0_i                             Net         -        -       1.371     -            1         
+game1.checkFailOne_RNO                                       LUT4        C        In      -         24.091 r     -         
+game1.checkFailOne_RNO                                       LUT4        Z        Out     0.558     24.649 r     -         
+checkFailOne_set                                             Net         -        -       1.507     -            1         
+game1.checkFailOne                                           FD1P3IZ     D        In      -         26.156 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 26.311 is 8.124(30.9%) logic and 18.187(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: randomizer|clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                             Arrival          
+Instance                           Reference                         Type        Pin     Net            Time        Slack
+                                   Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------------------
+game1.my_randomizer.counter[0]     randomizer|clk_inferred_clock     FD1P3DZ     Q       CO0            0.796       0.282
+game1.my_randomizer.counter[1]     randomizer|clk_inferred_clock     FD1P3DZ     Q       counter[1]     0.796       0.354
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                                 Required          
+Instance                           Reference                         Type        Pin     Net                Time         Slack
+                                   Clock                                                                                      
+------------------------------------------------------------------------------------------------------------------------------
+game1.my_randomizer.counter[0]     randomizer|clk_inferred_clock     FD1P3DZ     D       CO0_i              4.845        0.282
+game1.my_randomizer.counter[1]     randomizer|clk_inferred_clock     FD1P3DZ     D       counter_RNO[1]     4.845        0.282
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      4.563
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.282
+
+    Number of logic level(s):                1
+    Starting point:                          game1.my_randomizer.counter[0] / Q
+    Ending point:                            game1.my_randomizer.counter[1] / D
+    The start point is clocked by            randomizer|clk_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            randomizer|clk_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                   Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+game1.my_randomizer.counter[0]         FD1P3DZ     Q        Out     0.796     0.796 r     -         
+CO0                                    Net         -        -       1.599     -           6         
+game1.my_randomizer.counter_RNO[1]     LUT4        A        In      -         2.395 r     -         
+game1.my_randomizer.counter_RNO[1]     LUT4        Z        Out     0.661     3.056 r     -         
+counter_RNO[1]                         Net         -        -       1.507     -           1         
+game1.my_randomizer.counter[1]         FD1P3DZ     D        In      -         4.563 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 4.718 is 1.612(34.2%) logic and 3.106(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                              Arrival           
+Instance                          Reference     Type      Pin          Net              Time        Slack 
+                                  Clock                                                                   
+----------------------------------------------------------------------------------------------------------
+dataNesOne_ibuf                   System        IB        O            dataNesOne_c     0.000       -1.952
+dataNesTwo_ibuf                   System        IB        O            dataNesTwo_c     0.000       -1.952
+pllinst.lscc_pll_inst.u_PLL_B     System        PLL_B     INTFBOUT     intfbout_w       0.000       5.000 
+pllinst.lscc_pll_inst.u_PLL_B     System        PLL_B     OUTCORE      vgaclkout_c      0.000       5.000 
+vgaclk_ibuf                       System        IB        O            vgaclk_c         0.000       5.000 
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                    Required           
+Instance                          Reference     Type        Pin              Net              Time         Slack 
+                                  Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------
+controllerTwo.shift[0]            System        FD1P3DZ     D                dataNesTwo_c     4.845        -1.952
+controllerOne.shift[0]            System        FD1P3DZ     D                dataNesOne_c     4.845        -1.952
+pllinst.lscc_pll_inst.u_PLL_B     System        PLL_B       FEEDBACK         intfbout_w       5.000        5.000 
+pllinst.lscc_pll_inst.u_PLL_B     System        PLL_B       REFERENCECLK     vgaclk_c         5.000        5.000 
+vgaclkout_obuf                    System        OB          I                vgaclkout_c      5.000        5.000 
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          dataNesOne_ibuf / O
+    Ending point:                            controllerOne.shift[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            NES_controller_1|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+dataNesOne_ibuf            IB          O        Out     0.000     0.000 r     -         
+dataNesOne_c               Net         -        -       6.797     -           1         
+controllerOne.shift[0]     FD1P3DZ     D        In      -         6.797 r     -         
+========================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      6.797
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.952
+
+    Number of logic level(s):                0
+    Starting point:                          dataNesTwo_ibuf / O
+    Ending point:                            controllerTwo.shift[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            NES_controller_0|op_le_un7_outclock_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+dataNesTwo_ibuf            IB          O        Out     0.000     0.000 r     -         
+dataNesTwo_c               Net         -        -       6.797     -           1         
+controllerTwo.shift[0]     FD1P3DZ     D        In      -         6.797 r     -         
+========================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 5.000
+
+    Number of logic level(s):                0
+    Starting point:                          pllinst.lscc_pll_inst.u_PLL_B / INTFBOUT
+    Ending point:                            pllinst.lscc_pll_inst.u_PLL_B / FEEDBACK
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                              Pin          Pin               Arrival     No. of    
+Name                              Type      Name         Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+pllinst.lscc_pll_inst.u_PLL_B     PLL_B     INTFBOUT     Out     0.000     0.000 r     -         
+intfbout_w                        Net       -            -       0.000     -           1         
+pllinst.lscc_pll_inst.u_PLL_B     PLL_B     FEEDBACK     In      -         0.000 r     -         
+=================================================================================================
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 5.000
+
+    Number of logic level(s):                0
+    Starting point:                          pllinst.lscc_pll_inst.u_PLL_B / OUTCORE
+    Ending point:                            vgaclkout_obuf / I
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                              Pin         Pin               Arrival     No. of    
+Name                              Type      Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+pllinst.lscc_pll_inst.u_PLL_B     PLL_B     OUTCORE     Out     0.000     0.000 r     -         
+vgaclkout_c                       Net       -           -       0.000     -           1         
+vgaclkout_obuf                    OB        I           In      -         0.000 r     -         
+================================================================================================
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 5.000
+
+    Number of logic level(s):                0
+    Starting point:                          vgaclk_ibuf / O
+    Ending point:                            pllinst.lscc_pll_inst.u_PLL_B / REFERENCECLK
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                              Pin              Pin               Arrival     No. of    
+Name                              Type      Name             Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+vgaclk_ibuf                       IB        O                Out     0.000     0.000 r     -         
+vgaclk_c                          Net       -                -       0.000     -           1         
+pllinst.lscc_pll_inst.u_PLL_B     PLL_B     REFERENCECLK     In      -         0.000 r     -         
+=====================================================================================================
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 272MB peak: 278MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 272MB peak: 278MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          239 uses
+FD1P3DZ         201 uses
+FD1P3IZ         110 uses
+HSOSC           1 use
+INV             38 uses
+PLL_B           1 use
+VHI             28 uses
+VLO             28 uses
+LUT4            1097 uses
+
+I/O ports: 13
+I/O primitives: 13
+IB             3 uses
+OB             10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   311 of 5280 (5%)
+Total load per clock:
+   mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock: 293
+   randomizer|clk_inferred_clock: 2
+   NES_controller_0|op_le_un7_outclock_inferred_clock: 2
+   NES_controller_1|op_le_un7_outclock_inferred_clock: 2
+   pattern_gen|op_or_6_result_2_inferred_clock: 4
+
+@S |Mapping Summary:
+Total  LUTs: 1097 (20%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 1097 = 1097 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:08s; Memory used current: 71MB peak: 278MB)
+
+Process took 0h:00m:11s realtime, 0h:00m:08s cputime
+# Tue Dec 10 13:36:32 2024
+
+###########################################################]

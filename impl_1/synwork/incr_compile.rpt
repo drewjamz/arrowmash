@@ -1,0 +1,245 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03LR-1
+Install: C:\lscc\radiant\2023.1\synpbase
+OS: Windows 10 or later
+Hostname: LAB223F
+
+Implementation : impl_1
+Synopsys HDL compiler and linker, Version comp202303synp1, Build 100R, Built May 29 2023 11:23:06, @
+
+Modified Files: 3
+FID:  path (prevtimestamp, timestamp)
+79       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\fullscreen_helper.vhd (N/A, 2024-12-10 13:35:49)
+52       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24)
+56       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 28
+MID:  lib.cell.view
+0        work.arrow_selector.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+80       work.blank_arrow_selector.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+82       work.blank_heart_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+84       work.blank_helper.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+102      work.blank_helper2.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+86       work.blue_heart_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+2        work.down_arrow_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+88       work.down_blank_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+90       work.game.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+104      work.heart_helper.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+106      work.heart_selector.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+4        work.left_arrow_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+92       work.left_blank_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+43       work.mypll.verilog may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+44       work.mypll_ipgen_lscc_pll.verilog may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+45       work.nes_controller.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+47       work.pattern_gen.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (architecture and entity definition)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+49       work.pattern_gen_helper.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+78       work.pattern_gen_helper2.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+68       work.randomizer.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+94       work.red_heart_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+70       work.right_arrow_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+96       work.right_blank_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+108      work.states.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+72       work.top.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (architecture and entity definition)
+74       work.up_arrow_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+100      work.up_blank_rom.behavioral may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd (2024-12-10 12:58:49, 2024-12-10 13:35:24) <-- (may instantiate this module)
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+76       work.vga.synth may have changed because the following files changed:
+                        Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd (2024-12-10 13:03:24, 2024-12-10 13:35:13) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 77
+FID:  path (timestamp)
+0        C:\lscc\radiant\2023.1\ip\pmi\../avant/fifo/rtl/lscc_fifo.v (2023-03-20 20:59:25)
+1        C:\lscc\radiant\2023.1\ip\pmi\../avant/fifo_dc/rtl/lscc_fifo_dc.v (2023-03-20 20:59:02)
+2        C:\lscc\radiant\2023.1\ip\pmi\../avant/ram_dp/rtl/lscc_ram_dp.v (2023-04-18 22:16:42)
+3        C:\lscc\radiant\2023.1\ip\pmi\../avant/ram_dq/rtl/lscc_ram_dq.v (2023-04-18 22:19:54)
+4        C:\lscc\radiant\2023.1\ip\pmi\../avant/rom/rtl/lscc_rom.v (2023-04-05 05:42:45)
+5        C:\lscc\radiant\2023.1\ip\pmi\../common/adder/rtl/lscc_adder.v (2019-08-05 03:40:57)
+6        C:\lscc\radiant\2023.1\ip\pmi\../common/adder_subtractor/rtl/lscc_add_sub.v (2023-05-07 22:30:52)
+7        C:\lscc\radiant\2023.1\ip\pmi\../common/complex_mult/rtl/lscc_complex_mult.v (2021-09-09 21:26:39)
+8        C:\lscc\radiant\2023.1\ip\pmi\../common/counter/rtl/lscc_cntr.v (2019-08-05 03:41:47)
+9        C:\lscc\radiant\2023.1\ip\pmi\../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2020-03-18 05:18:16)
+10       C:\lscc\radiant\2023.1\ip\pmi\../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2020-03-18 05:17:43)
+11       C:\lscc\radiant\2023.1\ip\pmi\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2020-03-18 05:15:40)
+12       C:\lscc\radiant\2023.1\ip\pmi\../common/multiplier/rtl/lscc_multiplier.v (2019-08-05 03:42:13)
+13       C:\lscc\radiant\2023.1\ip\pmi\../common/subtractor/rtl/lscc_subtractor.v (2019-08-05 03:43:15)
+14       C:\lscc\radiant\2023.1\ip\pmi\pmi_add.v (2019-07-10 19:12:46)
+15       C:\lscc\radiant\2023.1\ip\pmi\pmi_addsub.v (2019-07-10 19:13:20)
+16       C:\lscc\radiant\2023.1\ip\pmi\pmi_complex_mult.v (2019-07-10 19:14:03)
+17       C:\lscc\radiant\2023.1\ip\pmi\pmi_counter.v (2019-07-10 19:14:35)
+18       C:\lscc\radiant\2023.1\ip\pmi\pmi_dsp.v (2018-09-07 00:04:55)
+19       C:\lscc\radiant\2023.1\ip\pmi\pmi_fifo.v (2021-12-22 00:54:41)
+20       C:\lscc\radiant\2023.1\ip\pmi\pmi_fifo_dc.v (2021-12-22 00:57:43)
+21       C:\lscc\radiant\2023.1\ip\pmi\pmi_iCE40UP.v (2018-09-24 20:25:35)
+22       C:\lscc\radiant\2023.1\ip\pmi\pmi_iCE40UP.vhd (2022-03-29 03:29:18)
+23       C:\lscc\radiant\2023.1\ip\pmi\pmi_mac.v (2019-07-10 19:15:11)
+24       C:\lscc\radiant\2023.1\ip\pmi\pmi_mult.v (2019-07-10 19:15:37)
+25       C:\lscc\radiant\2023.1\ip\pmi\pmi_multaddsub.v (2019-07-10 19:16:06)
+26       C:\lscc\radiant\2023.1\ip\pmi\pmi_multaddsubsum.v (2019-07-10 19:16:55)
+27       C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dp.v (2022-02-15 21:51:13)
+28       C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dp_be.v (2022-02-15 22:07:36)
+29       C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dq.v (2022-02-15 21:52:03)
+30       C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dq_be.v (2022-02-15 21:52:13)
+31       C:\lscc\radiant\2023.1\ip\pmi\pmi_rom.v (2022-02-15 21:52:24)
+32       C:\lscc\radiant\2023.1\ip\pmi\pmi_sub.v (2019-07-10 19:17:30)
+33       C:\lscc\radiant\2023.1\synpbase\lib\generic\ice40up.v (2023-05-31 16:20:43)
+34       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\arith.vhd (2023-05-31 16:20:56)
+35       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\location.map (2023-05-31 16:26:13)
+36       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\numeric.vhd (2023-05-31 16:20:56)
+37       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\std.vhd (2023-05-31 16:20:56)
+38       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\std1164.vhd (2023-05-31 16:20:56)
+39       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\std_textio.vhd (2023-05-31 16:20:56)
+40       C:\lscc\radiant\2023.1\synpbase\lib\vhd2008\unsigned.vhd (2023-05-31 16:20:56)
+41       C:\lscc\radiant\2023.1\synpbase\lib\vhd\hyperents.vhd (2023-05-31 16:20:55)
+42       C:\lscc\radiant\2023.1\synpbase\lib\vhd\snps_haps_pkg.vhd (2023-05-31 16:20:55)
+43       C:\lscc\radiant\2023.1\synpbase\lib\vhd\umr_capim.vhd (2023-05-31 16:20:55)
+44       C:\lscc\radiant\2023.1\synpbase\lib\vlog\hypermods.v (2023-05-31 16:20:56)
+45       C:\lscc\radiant\2023.1\synpbase\lib\vlog\scemi_objects.v (2023-05-31 16:20:56)
+46       C:\lscc\radiant\2023.1\synpbase\lib\vlog\scemi_pipes.svh (2023-05-31 16:20:56)
+47       Z:\es4\Final-20241122T182447Z-001\Final\mypll\rtl\mypll.v (2024-11-22 14:37:59)
+60       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\Blank_Arrow_Selector.vhd (2024-12-07 18:31:42)
+48       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\NES_controller.vhd (2024-11-25 19:06:04)
+49       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\arrow_selector.vhd (2024-12-03 20:56:45)
+61       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\arrows_pkg.vhd (2024-12-08 15:08:09)
+62       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_heart_rom.vhd (2024-12-07 17:28:52)
+63       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_helper.vhd (2024-12-08 17:34:35)
+72       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_helper2.vhd (2024-12-08 20:36:26)
+64       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blue_heart_rom.vhd (2024-12-07 17:28:52)
+77       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blue_win_rom.vhd (2024-12-09 21:41:43)
+50       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\down_arrow_rom.vhd (2024-12-03 20:21:27)
+65       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\down_blank_rom.vhd (2024-12-07 17:28:52)
+66       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\game.vhd (2024-12-10 12:27:20)
+73       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\heart_helper.vhd (2024-12-09 02:04:33)
+74       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\heart_selector.vhd (2024-12-09 02:22:24)
+51       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\left_arrow_rom.vhd (2024-12-03 20:23:14)
+67       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\left_blank_rom.vhd (2024-12-07 17:28:52)
+53       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen_helper.vhd (2024-12-08 20:30:44)
+59       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen_helper2.vhd (2024-12-08 20:31:01)
+54       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\randomizer.vhd (2024-12-06 16:41:40)
+68       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\red_heart_rom.vhd (2024-12-07 17:28:52)
+78       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\red_win_rom.vhd (2024-12-09 21:40:09)
+55       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\right_arrow_rom.vhd (2024-12-03 20:23:29)
+69       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\right_blank_rom.vhd (2024-12-07 17:28:52)
+70       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\start_screen_rom.vhd (2024-12-07 17:28:53)
+75       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\states.vhd (2024-12-10 12:52:07)
+76       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\states_pkg.vhd (2024-12-10 12:46:12)
+57       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\up_arrow_rom.vhd (2024-12-03 20:16:13)
+71       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\up_blank_rom.vhd (2024-12-07 17:28:52)
+58       Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\vga.vhd (2024-12-09 23:18:08)
+
+*******************************************************************
+Unchanged modules: 60
+MID:  lib.cell.view
+110      work.blue_win_rom.behavioral
+111      work.blue_win_rom.vhdl
+6        work.lscc_add_sub.verilog
+7        work.lscc_adder.verilog
+8        work.lscc_cntr.verilog
+9        work.lscc_complex_mult.verilog
+10       work.lscc_fifo.verilog
+11       work.lscc_fifo_dc.verilog
+12       work.lscc_fifo_dc_fwft_fabric.verilog
+13       work.lscc_fifo_dc_hw_core.verilog
+14       work.lscc_fifo_dc_main.verilog
+15       work.lscc_fifo_fwft_fabric.verilog
+16       work.lscc_fifo_hw_core.verilog
+17       work.lscc_fifo_main.verilog
+18       work.lscc_fifo_mem.verilog
+19       work.lscc_fifo_mem_core.verilog
+20       work.lscc_fifo_mem_main.verilog
+21       work.lscc_hard_fifo.verilog
+22       work.lscc_hard_fifo_dc.verilog
+23       work.lscc_mult_accumulate.verilog
+24       work.lscc_mult_add_sub.verilog
+25       work.lscc_mult_add_sub_sum.verilog
+26       work.lscc_multiplier.verilog
+27       work.lscc_multiplier_dsp.verilog
+28       work.lscc_multiplier_lut.verilog
+29       work.lscc_ram_dp.verilog
+30       work.lscc_ram_dp_core.verilog
+31       work.lscc_ram_dp_main.verilog
+32       work.lscc_ram_dq.verilog
+33       work.lscc_ram_dq_core.verilog
+34       work.lscc_ram_dq_inst.verilog
+35       work.lscc_ram_dq_main.verilog
+36       work.lscc_rom.verilog
+37       work.lscc_rom_inst.verilog
+38       work.lscc_rom_inst_core.verilog
+39       work.lscc_soft_fifo.verilog
+40       work.lscc_soft_fifo_dc.verilog
+41       work.lscc_subtractor.verilog
+42       work.lscc_write_through.verilog
+51       work.pmi_add.verilog
+52       work.pmi_addsub.verilog
+53       work.pmi_complex_mult.verilog
+54       work.pmi_counter.verilog
+55       work.pmi_dsp.verilog
+56       work.pmi_fifo.verilog
+57       work.pmi_fifo_dc.verilog
+58       work.pmi_mac.verilog
+59       work.pmi_mult.verilog
+60       work.pmi_multaddsub.verilog
+61       work.pmi_multaddsubsum.verilog
+62       work.pmi_ram_dp.verilog
+63       work.pmi_ram_dp_be.verilog
+64       work.pmi_ram_dq.verilog
+65       work.pmi_ram_dq_be.verilog
+66       work.pmi_rom.verilog
+67       work.pmi_sub.verilog
+112      work.red_win_rom.behavioral
+113      work.red_win_rom.vhdl
+98       work.start_screen_rom.behavioral
+99       work.start_screen_rom.vhdl

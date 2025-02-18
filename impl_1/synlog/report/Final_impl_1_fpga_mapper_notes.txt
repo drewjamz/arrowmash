@@ -1,0 +1,51 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\nes_controller.vhd":46:8:46:9|Found counter in view:work.top(synth) instance controllerOne.counter[19:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance guardTwo[23:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance guardOne[23:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance newArrowCounter[24:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Found counter in view:work.game(synth) instance dropCounter[19:0] 
+@N: MO231 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\randomizer.vhd":39:2:39:3|Found counter in view:work.randomizer(synth) instance countSlow[23:0] 
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\red_heart_rom.vhd":17:8:17:11|Found ROM mypattern.my_heart_selector.Red_Heart_Rom_inst.data_out_1_0[8:0] (in view: work.top(synth)) with 256 words by 9 bits.
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_blank_rom.vhd":17:8:17:11|Found ROM mypattern.my_blank_selector.Right_Arrow_Rom_inst.data_out_1_0[11:0] (in view: work.top(synth)) with 256 words by 12 bits.
+@N: MO106 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\right_arrow_rom.vhd":17:8:17:11|Found ROM mypattern.my_arrow_selector.Right_Arrow_Rom_inst.data_out_1[11:0] (in view: work.top(synth)) with 256 words by 12 bits.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[7] (in view: work.top(synth)) with 19 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[3] (in view: work.top(synth)) with 16 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[2] (in view: work.top(synth)) with 15 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[2] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[3] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_6[8] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[6] (in view: work.top(synth)) with 15 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[5] (in view: work.top(synth)) with 17 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[8] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[6] (in view: work.top(synth)) with 13 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_4[1] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[7] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[5] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[5] (in view: work.top(synth)) with 14 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[3] (in view: work.top(synth)) with 9 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[2] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_3[4] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[3] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[2] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[2] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[8] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[3] (in view: work.top(synth)) with 9 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[3] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[2] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[6] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[4] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[6] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[4] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[7] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[7] (in view: work.top(synth)) with 13 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[7] (in view: work.top(synth)) with 8 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_0[1] (in view: work.top(synth)) with 12 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_1[1] (in view: work.top(synth)) with 11 loads 1 time to improve timing.
+@N: FX271 :"z:\es4\final-20241122t182447z-001\final\source\impl_1\game.vhd":64:4:64:5|Replicating instance game1.arrow_y_poss_5[1] (in view: work.top(synth)) with 10 loads 1 time to improve timing.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.

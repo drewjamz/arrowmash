@@ -1,0 +1,25 @@
+<top name = "top"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+    <clockitem name = "vgaclkout"  type = "net" />
+    <clockitem name = "vgaclk"  type = "port" />
+    <clockitem name = "intclk"  type = "net" />
+    <clockitem name = "clkNesTwo"  type = "net" />
+    <clockitem name = "clkNesOne"  type = "net" />
+    <clockitem name = "vga1/hs"  type = "net" />
+    <clockitem name = "game1/my_randomizer/clk"  type = "net" />
+    <clockitem name = "pllinst/lscc_pll_inst/outglobalb_o"  type = "net" />
+    <clockitem name = "pllinst/lscc_pll_inst/outcoreb_o"  type = "net" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 9
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+</top>

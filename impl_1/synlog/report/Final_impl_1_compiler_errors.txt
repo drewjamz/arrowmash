@@ -1,0 +1,4 @@
+@E: CD371 :"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\vga.vhd":62:4:62:15|No matching overload for rising_edge
+@E: CD676 :"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\vga.vhd":62:25:62:28|Can't implement expression (no function signature?)
+@E::Errors while synthesizing top module top.
+

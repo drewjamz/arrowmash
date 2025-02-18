@@ -1,0 +1,7 @@
+ckid0_0:@|S:controllerTwo.op_le\.un7_outclock.OUT@|E:controllerTwo.out_data[7:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:controllerTwo.clock.OUT@|E:controllerTwo.shift[7:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_6:@|S:pllinst.lscc_pll_inst.u_PLL_B.OUTGLOBAL@|E:game1.arrow_enables[0:7]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6
+ckid0_7:@|S:controllerOne.op_le\.un7_outclock.OUT@|E:controllerOne.out_data[7:0]@|F:@syn_dgcc_clockid0_7==1@|M:ClockId_0_7
+ckid0_8:@|S:controllerOne.clock.OUT@|E:controllerOne.shift[7:0]@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8
+ckid0_9:@|S:mypattern.op_or\.6\.result_2.OUT@|E:mypattern.current_displaying[0]@|F:@syn_dgcc_clockid0_9==1@|M:ClockId_0_9
+ckid0_10:@|S:game1.my_randomizer.osc.CLKHF@|E:game1.my_randomizer.counter[1:0]@|F:@syn_dgcc_clockid0_10==1@|M:ClockId_0_10

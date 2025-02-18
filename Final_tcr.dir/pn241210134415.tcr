@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/10/2024 13:41:44
+#Project Location: Z:/es4/Final-20241122T182447Z-001/Final; Project name: Final
+prj_open "Z:/es4/Final-20241122T182447Z-001/Final/Final.rdf"
+prj_archive -includeAll "Z:/Documents/Final.zip"
+#Stop recording: 12/10/2024 13:44:15

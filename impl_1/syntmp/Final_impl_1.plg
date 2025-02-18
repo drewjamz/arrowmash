@@ -1,0 +1,37 @@
+@P:  Worst Slack : -21.383
+@P:  NES_controller_0|op_le_un7_outclock_inferred_clock - Estimated Frequency : 284.2 MHz
+@P:  NES_controller_0|op_le_un7_outclock_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  NES_controller_0|op_le_un7_outclock_inferred_clock - Estimated Period : 3.519
+@P:  NES_controller_0|op_le_un7_outclock_inferred_clock - Requested Period : 5.000
+@P:  NES_controller_0|op_le_un7_outclock_inferred_clock - Slack : 1.481
+@P:  NES_controller_1|op_le_un7_outclock_inferred_clock - Estimated Frequency : 284.2 MHz
+@P:  NES_controller_1|op_le_un7_outclock_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  NES_controller_1|op_le_un7_outclock_inferred_clock - Estimated Period : 3.519
+@P:  NES_controller_1|op_le_un7_outclock_inferred_clock - Requested Period : 5.000
+@P:  NES_controller_1|op_le_un7_outclock_inferred_clock - Slack : 1.481
+@P:  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock - Estimated Frequency : 37.9 MHz
+@P:  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock - Estimated Period : 26.383
+@P:  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock - Requested Period : 5.000
+@P:  mypll_ipgen_lscc_pll_Z1_layer1|outglobal_o_inferred_clock - Slack : -21.383
+@P:  pattern_gen|op_or_6_result_2_inferred_clock - Estimated Frequency : NA
+@P:  pattern_gen|op_or_6_result_2_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  pattern_gen|op_or_6_result_2_inferred_clock - Estimated Period : NA
+@P:  pattern_gen|op_or_6_result_2_inferred_clock - Requested Period : 5.000
+@P:  pattern_gen|op_or_6_result_2_inferred_clock - Slack : NA
+@P:  randomizer|clk_inferred_clock - Estimated Frequency : 211.9 MHz
+@P:  randomizer|clk_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  randomizer|clk_inferred_clock - Estimated Period : 4.718
+@P:  randomizer|clk_inferred_clock - Requested Period : 5.000
+@P:  randomizer|clk_inferred_clock - Slack : 0.282
+@P:  System - Estimated Frequency : 143.8 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 6.952
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : -1.952
+@P: top Part : ice40up5ksg48i-6
+@P: top I/O primitives : 13
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 311 (5%)
+@P: top Total Luts : 1097 of 5280 (20%)
+@P:  CPU Time : 0h:00m:08s

@@ -1,0 +1,284 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  265 of 5280 (5.019%)
+I/O cells:      12
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       122          100.0
+                            FD1P3XZ       265          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         2          100.0
+                              IOL_B         1          100.0
+                               LUT4       914          100.0
+                                 OB        10          100.0
+                              PLL_B         1          100.0
+SUB MODULES
+                     Arrow_Selector         1
+               Blank_Arrow_Selector         1
+                    Blank_Heart_Rom         1
+                     Heart_Selector         1
+                     Left_Arrow_Rom         1
+                     Left_Blank_Rom         1
+                     NES_controller         1
+                  NES_controller_U9         1
+                       blank_helper         1
+                      blank_helper2         1
+                               game         1
+                       heart_helper         1
+                    heart_helper_U6         1
+                    heart_helper_U7         1
+                    heart_helper_U8         1
+                              mypll         1
+mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                        pattern_gen         1
+                 pattern_gen_helper         1
+                pattern_gen_helper2         1
+             pattern_gen_helper2_U3         1
+             pattern_gen_helper2_U4         1
+             pattern_gen_helper2_U5         1
+              pattern_gen_helper_U0         1
+              pattern_gen_helper_U1         1
+              pattern_gen_helper_U2         1
+                         randomizer         1
+                                vga         1
+                              TOTAL      1344
+----------------------------------------------------------------------
+Report for cell NES_controller_U9.v1
+Instance Path : controllerOne
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        11            9.0
+                            FD1P3XZ        27           10.2
+                              IOL_B         1          100.0
+                               LUT4        14            1.5
+                              TOTAL        53
+----------------------------------------------------------------------
+Report for cell NES_controller.v1
+Instance Path : controllerTwo
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        11            9.0
+                            FD1P3XZ        20            7.5
+                               LUT4         6            0.7
+                              TOTAL        37
+----------------------------------------------------------------------
+Report for cell game.v1
+Instance Path : game1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        88           72.1
+                            FD1P3XZ       198           74.7
+                         HSOSC_CORE         1          100.0
+                               LUT4       150           16.4
+SUB MODULES
+                         randomizer         1
+                              TOTAL       438
+----------------------------------------------------------------------
+Report for cell randomizer.v1
+Instance Path : game1.my_randomizer
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13           10.7
+                            FD1P3XZ        30           11.3
+                         HSOSC_CORE         1          100.0
+                               LUT4        15            1.6
+                              TOTAL        59
+----------------------------------------------------------------------
+Report for cell mypll.v1
+Instance Path : pllinst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+SUB MODULES
+mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000").v1
+Instance Path : pllinst.lscc_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell vga.v1
+Instance Path : vga1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        12            9.8
+                            FD1P3XZ        20            7.5
+                               LUT4        38            4.2
+                              TOTAL        70
+----------------------------------------------------------------------
+Report for cell pattern_gen.v1
+Instance Path : mypattern
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       691           75.6
+SUB MODULES
+                     Arrow_Selector         1
+               Blank_Arrow_Selector         1
+                    Blank_Heart_Rom         1
+                     Heart_Selector         1
+                     Left_Arrow_Rom         1
+                     Left_Blank_Rom         1
+                       blank_helper         1
+                      blank_helper2         1
+                       heart_helper         1
+                    heart_helper_U6         1
+                    heart_helper_U7         1
+                    heart_helper_U8         1
+                 pattern_gen_helper         1
+                pattern_gen_helper2         1
+             pattern_gen_helper2_U3         1
+             pattern_gen_helper2_U4         1
+             pattern_gen_helper2_U5         1
+              pattern_gen_helper_U0         1
+              pattern_gen_helper_U1         1
+              pattern_gen_helper_U2         1
+                              TOTAL       711
+----------------------------------------------------------------------
+Report for cell Heart_Selector.v1
+Instance Path : mypattern.my_heart_selector
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        90            9.8
+SUB MODULES
+                    Blank_Heart_Rom         1
+                              TOTAL        91
+----------------------------------------------------------------------
+Report for cell Blank_Heart_Rom.v1
+Instance Path : mypattern.my_heart_selector.Blank_Heart_Rom_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        90            9.8
+                              TOTAL        90
+----------------------------------------------------------------------
+Report for cell Blank_Arrow_Selector.v1
+Instance Path : mypattern.my_blank_selector
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       107           11.7
+SUB MODULES
+                     Left_Blank_Rom         1
+                              TOTAL       108
+----------------------------------------------------------------------
+Report for cell Left_Blank_Rom.v1
+Instance Path : mypattern.my_blank_selector.Left_Arrow_Rom_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       107           11.7
+                              TOTAL       107
+----------------------------------------------------------------------
+Report for cell Arrow_Selector.v1
+Instance Path : mypattern.my_arrow_selector
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       117           12.8
+SUB MODULES
+                     Left_Arrow_Rom         1
+                              TOTAL       118
+----------------------------------------------------------------------
+Report for cell Left_Arrow_Rom.v1
+Instance Path : mypattern.my_arrow_selector.Left_Arrow_Rom_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       117           12.8
+                              TOTAL       117
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper.v1
+Instance Path : mypattern.gen_helper[3].helper
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        30            3.3
+                              TOTAL        30
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper_U0.v1
+Instance Path : mypattern.gen_helper[2].helper
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        30            3.3
+                              TOTAL        30
+----------------------------------------------------------------------
+Report for cell blank_helper.v1
+Instance Path : mypattern.gen_helper[2].blank
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            0.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper_U1.v1
+Instance Path : mypattern.gen_helper[1].helper
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        25            2.7
+                              TOTAL        25
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper_U2.v1
+Instance Path : mypattern.gen_helper[0].helper
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        28            3.1
+                              TOTAL        28
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper2.v1
+Instance Path : mypattern.gen_helper2[7].helper2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        33            3.6
+                              TOTAL        33
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper2_U3.v1
+Instance Path : mypattern.gen_helper2[6].helper2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        33            3.6
+                              TOTAL        33
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper2_U4.v1
+Instance Path : mypattern.gen_helper2[5].helper2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        21            2.3
+                              TOTAL        21
+----------------------------------------------------------------------
+Report for cell pattern_gen_helper2_U5.v1
+Instance Path : mypattern.gen_helper2[4].helper2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        35            3.8
+                              TOTAL        35
+----------------------------------------------------------------------
+Report for cell blank_helper2.v1
+Instance Path : mypattern.gen_helper2[4].blank
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell heart_helper.v1
+Instance Path : mypattern.gen_heart_helper[2].helper_p1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         8            0.9
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell heart_helper_U6.v1
+Instance Path : mypattern.gen_heart_helper[1].helper_p1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         8            0.9
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell heart_helper_U7.v1
+Instance Path : mypattern.gen_heart_helper[0].helper_p2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell heart_helper_U8.v1
+Instance Path : mypattern.gen_heart_helper[0].helper_p1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            0.8
+                              TOTAL         7

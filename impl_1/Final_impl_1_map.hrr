@@ -1,0 +1,255 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       1649        100.0
+                               LUTGATE	       1171        100.0
+                                LUTCCU	        478        100.0
+                                 IOBUF	         13        100.0
+                                PFUREG	        311        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      NES_controller_0	          1         0.0
+                      NES_controller_1	          1         1.8
+                                  game	          1        40.3
+                                 mypll	          1         0.0
+                           pattern_gen	          1        45.5
+                                   vga	          1         3.4
+---------------------------------------------------
+Report for cell game
+   Instance path: top/game1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        665        40.3
+                               LUTGATE	        561        47.9
+                                LUTCCU	        104        21.8
+                                PFUREG	        255        82.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                            randomizer	          1         2.4
+---------------------------------------------------
+Report for cell randomizer
+   Instance path: top/game1/my_randomizer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         40         2.4
+                               LUTGATE	         14         1.2
+                                LUTCCU	         26         5.4
+                                PFUREG	         30         9.6
+---------------------------------------------------
+Report for cell vga
+   Instance path: top/vga1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         56         3.4
+                               LUTGATE	         36         3.1
+                                LUTCCU	         20         4.2
+                                PFUREG	         20         6.4
+---------------------------------------------------
+Report for cell pattern_gen
+   Instance path: top/mypattern
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        750        45.5
+                               LUTGATE	        418        35.7
+                                LUTCCU	        332        69.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                        Arrow_Selector	          1         6.7
+                  Blank_Arrow_Selector	          1         2.5
+                        Heart_Selector	          1         3.3
+                        heart_helper_1	          1         0.2
+                        heart_helper_2	          1         0.2
+                        heart_helper_3	          1         0.6
+                        heart_helper_4	          1         0.7
+                        heart_helper_5	          1         1.3
+                    pattern_gen_helper	          1         3.6
+                   pattern_gen_helper2	          1         3.2
+                 pattern_gen_helper2_0	          1         3.2
+                 pattern_gen_helper2_1	          1         3.3
+                 pattern_gen_helper2_2	          1         3.2
+                  pattern_gen_helper_0	          1         3.6
+                  pattern_gen_helper_1	          1         3.3
+                  pattern_gen_helper_2	          1         3.2
+---------------------------------------------------
+Report for cell Arrow_Selector
+   Instance path: top/mypattern/my_arrow_selector
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        110         6.7
+                               LUTGATE	        110         9.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                       Right_Arrow_Rom	          1         6.1
+---------------------------------------------------
+Report for cell Right_Arrow_Rom
+   Instance path: top/mypattern/my_arrow_selector/Right_Arrow_Rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        100         6.1
+                               LUTGATE	        100         8.5
+---------------------------------------------------
+Report for cell Blank_Arrow_Selector
+   Instance path: top/mypattern/my_blank_selector
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         42         2.5
+                               LUTGATE	         42         3.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                       Right_Blank_Rom	          1         2.5
+---------------------------------------------------
+Report for cell Right_Blank_Rom
+   Instance path: top/mypattern/my_blank_selector/Right_Arrow_Rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         42         2.5
+                               LUTGATE	         42         3.6
+---------------------------------------------------
+Report for cell Heart_Selector
+   Instance path: top/mypattern/my_heart_selector
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         54         3.3
+                               LUTGATE	         54         4.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         Red_Heart_Rom	          1         3.0
+---------------------------------------------------
+Report for cell Red_Heart_Rom
+   Instance path: top/mypattern/my_heart_selector/Red_Heart_Rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         49         3.0
+                               LUTGATE	         49         4.2
+---------------------------------------------------
+Report for cell pattern_gen_helper
+   Instance path: top/mypattern/gen_helper.0.helper
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         59         3.6
+                               LUTGATE	         21         1.8
+                                LUTCCU	         38         7.9
+---------------------------------------------------
+Report for cell pattern_gen_helper_0
+   Instance path: top/mypattern/gen_helper.3.helper
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         60         3.6
+                               LUTGATE	         22         1.9
+                                LUTCCU	         38         7.9
+---------------------------------------------------
+Report for cell pattern_gen_helper_1
+   Instance path: top/mypattern/gen_helper.1.helper
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         54         3.3
+                               LUTGATE	         16         1.4
+                                LUTCCU	         38         7.9
+---------------------------------------------------
+Report for cell pattern_gen_helper_2
+   Instance path: top/mypattern/gen_helper.2.helper
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         53         3.2
+                               LUTGATE	         13         1.1
+                                LUTCCU	         40         8.4
+---------------------------------------------------
+Report for cell pattern_gen_helper2
+   Instance path: top/mypattern/gen_helper2.4.helper2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         53         3.2
+                               LUTGATE	         13         1.1
+                                LUTCCU	         40         8.4
+---------------------------------------------------
+Report for cell pattern_gen_helper2_0
+   Instance path: top/mypattern/gen_helper2.7.helper2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         53         3.2
+                               LUTGATE	         13         1.1
+                                LUTCCU	         40         8.4
+---------------------------------------------------
+Report for cell pattern_gen_helper2_1
+   Instance path: top/mypattern/gen_helper2.5.helper2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         55         3.3
+                               LUTGATE	         17         1.5
+                                LUTCCU	         38         7.9
+---------------------------------------------------
+Report for cell pattern_gen_helper2_2
+   Instance path: top/mypattern/gen_helper2.6.helper2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         52         3.2
+                               LUTGATE	         14         1.2
+                                LUTCCU	         38         7.9
+---------------------------------------------------
+Report for cell heart_helper_5
+   Instance path: top/mypattern/gen_heart_helper.0.helper_p1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         21         1.3
+                               LUTGATE	         11         0.9
+                                LUTCCU	         10         2.1
+---------------------------------------------------
+Report for cell heart_helper_4
+   Instance path: top/mypattern/gen_heart_helper.1.helper_p1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         12         0.7
+                               LUTGATE	          8         0.7
+                                LUTCCU	          4         0.8
+---------------------------------------------------
+Report for cell heart_helper_3
+   Instance path: top/mypattern/gen_heart_helper.2.helper_p1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.6
+                               LUTGATE	          6         0.5
+                                LUTCCU	          4         0.8
+---------------------------------------------------
+Report for cell heart_helper_2
+   Instance path: top/mypattern/gen_heart_helper.0.helper_p2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.2
+                                LUTCCU	          4         0.8
+---------------------------------------------------
+Report for cell heart_helper_1
+   Instance path: top/mypattern/gen_heart_helper.1.helper_p2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.2
+                               LUTGATE	          3         0.3
+---------------------------------------------------
+Report for cell NES_controller_1
+   Instance path: top/controllerOne
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         29         1.8
+                               LUTGATE	          7         0.6
+                                LUTCCU	         22         4.6
+                                PFUREG	         28         9.0
+---------------------------------------------------
+Report for cell NES_controller_0
+   Instance path: top/controllerTwo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          8         2.6
+---------------------------------------------------
+Report for cell mypll
+   Instance path: top/pllinst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        mypll_ipgen_lscc_pll_Z1_layer1	          1         0.0
+---------------------------------------------------
+Report for cell mypll_ipgen_lscc_pll_Z1_layer1
+   Instance path: top/pllinst/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

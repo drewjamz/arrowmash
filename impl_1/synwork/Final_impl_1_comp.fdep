@@ -1,0 +1,402 @@
+#OPTIONS:"|-mixedhdl|-top|top|-layerid|0|-orig_srs|Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\synwork\\Final_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|0|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\bin64\\c_vhdl.exe":1685564424
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\location.map":1685564773
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1685564455
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std1164.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\std_textio.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\numeric.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd\\umr_capim.vhd":1685564455
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\arith.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd2008\\unsigned.vhd":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vhd\\hyperents.vhd":1685564455
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_iCE40UP.vhd":1648538958
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\NES_controller.vhd":1732579564
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\vga.vhd":1733804288
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\up_arrow_rom.vhd":1733274973
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\right_arrow_rom.vhd":1733275409
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\left_arrow_rom.vhd":1733275394
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\down_arrow_rom.vhd":1733275287
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\randomizer.vhd":1733521300
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen_helper.vhd":1733707844
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen_helper2.vhd":1733707861
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blue_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\red_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_heart_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\right_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\up_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\down_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\left_blank_rom.vhd":1733610532
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\start_screen_rom.vhd":1733610533
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_helper.vhd":1733697275
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\arrows_pkg.vhd":1733688489
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blank_helper2.vhd":1733708186
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\heart_helper.vhd":1733727873
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\states_pkg.vhd":1733852772
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\red_win_rom.vhd":1733798409
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\blue_win_rom.vhd":1733798503
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\fullscreen_helper.vhd":1733855749
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\arrow_selector.vhd":1733277405
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\Blank_Arrow_Selector.vhd":1733614302
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\heart_selector.vhd":1733728944
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\pattern_gen.vhd":1733855724
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\game.vhd":1733851640
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\states.vhd":1733853127
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\source\\impl_1\\top.vhd":1733855713
+#OPTIONS:"|-mixedhdl|-modhint|Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\synwork\\_verilog_hintfile|-top|work.mypll|-mpparams|Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\synwork\\_mh_params|-layerid|1|-orig_srs|Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\synwork\\Final_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-I|Z:\\es4\\Final-20241122T182447Z-001\\Final|-I|Z:\\es4\\Final-20241122T182447Z-001\\Final\\mypll|-I|Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\|-I|C:\\lscc\\radiant\\2023.1\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\generic\\ice40up.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\bin64\\c_ver.exe":1685564424
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\impl_1\\synwork\\_verilog_hintfile":1733855763
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\generic\\ice40up.v":1685564443
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vlog\\hypermods.v":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vlog\\scemi_objects.v":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\synpbase\\lib\\vlog\\scemi_pipes.svh":1685564456
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_iCE40UP.v":1537835135
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_addsub.v":1562800400
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/adder_subtractor/rtl/lscc_add_sub.v":1683513052
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_add.v":1562800366
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/adder/rtl/lscc_adder.v":1564990857
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_complex_mult.v":1562800443
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/complex_mult/rtl/lscc_complex_mult.v":1631237199
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_counter.v":1562800475
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/counter/rtl/lscc_cntr.v":1564990907
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_fifo.v":1640152481
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/fifo/rtl/lscc_fifo.v":1679360365
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_fifo_dc.v":1640152663
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/fifo_dc/rtl/lscc_fifo_dc.v":1679360342
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_mac.v":1562800511
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1584523096
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_multaddsubsum.v":1562800615
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1584522940
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_multaddsub.v":1562800566
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1584523063
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_mult.v":1562800537
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/multiplier/rtl/lscc_multiplier.v":1564990933
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_ram_dp.v":1644979873
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/ram_dp/rtl/lscc_ram_dp.v":1681870602
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_ram_dq.v":1644979923
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/ram_dq/rtl/lscc_ram_dq.v":1681870794
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_rom.v":1644979944
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/rom/rtl/lscc_rom.v":1680687765
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_sub.v":1562800650
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../common/subtractor/rtl/lscc_subtractor.v":1564990995
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_ram_dp_be.v":1644980856
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/ram_dp/rtl/lscc_ram_dp.v":1681870602
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_ram_dq_be.v":1644979933
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\../avant/ram_dq/rtl/lscc_ram_dq.v":1681870794
+#CUR:"C:\\lscc\\radiant\\2023.1\\ip\\pmi\\pmi_dsp.v":1536293095
+#CUR:"Z:\\es4\\Final-20241122T182447Z-001\\Final\\mypll\\rtl\\mypll.v":1732304279
+0			"C:\lscc\radiant\2023.1\ip\pmi\pmi_iCE40UP.vhd" vhdl
+1			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\NES_controller.vhd" vhdl
+2			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\vga.vhd" vhdl
+3			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\up_arrow_rom.vhd" vhdl
+4			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\right_arrow_rom.vhd" vhdl
+5			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\left_arrow_rom.vhd" vhdl
+6			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\down_arrow_rom.vhd" vhdl
+7			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\randomizer.vhd" vhdl
+8			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen_helper.vhd" vhdl
+9			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen_helper2.vhd" vhdl
+10			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blue_heart_rom.vhd" vhdl
+11			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\red_heart_rom.vhd" vhdl
+12			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_heart_rom.vhd" vhdl
+13			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\right_blank_rom.vhd" vhdl
+14			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\up_blank_rom.vhd" vhdl
+15			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\down_blank_rom.vhd" vhdl
+16			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\left_blank_rom.vhd" vhdl
+17			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\start_screen_rom.vhd" vhdl
+18			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_helper.vhd" vhdl
+19			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\arrows_pkg.vhd" vhdl
+20			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blank_helper2.vhd" vhdl
+21			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\heart_helper.vhd" vhdl
+22			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\states_pkg.vhd" vhdl
+23			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\red_win_rom.vhd" vhdl
+24			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\blue_win_rom.vhd" vhdl
+25			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\fullscreen_helper.vhd" vhdl
+26			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\arrow_selector.vhd" vhdl
+27			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\Blank_Arrow_Selector.vhd" vhdl
+28			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\heart_selector.vhd" vhdl
+29			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\pattern_gen.vhd" vhdl
+30			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\game.vhd" vhdl
+31			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\states.vhd" vhdl
+32			"Z:\es4\Final-20241122T182447Z-001\Final\source\impl_1\top.vhd" vhdl
+33			"C:\lscc\radiant\2023.1\ip\pmi\pmi_iCE40UP.v" verilog
+34		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_addsub.v" verilog
+35		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" verilog
+36		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_add.v" verilog
+37		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/adder/rtl\lscc_adder.v" verilog
+38		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_complex_mult.v" verilog
+39		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" verilog
+40		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_counter.v" verilog
+41		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" verilog
+42		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_fifo.v" verilog
+43		*	"C:\lscc\radiant\2023.1\ip\pmi\../avant/fifo/rtl\lscc_fifo.v" verilog
+44		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_fifo_dc.v" verilog
+45		*	"C:\lscc\radiant\2023.1\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v" verilog
+46		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_mac.v" verilog
+47		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" verilog
+48		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_multaddsubsum.v" verilog
+49		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" verilog
+50		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_multaddsub.v" verilog
+51		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" verilog
+52		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_mult.v" verilog
+53		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" verilog
+54		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dp.v" verilog
+55		*	"C:\lscc\radiant\2023.1\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v" verilog
+56		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dq.v" verilog
+57		*	"C:\lscc\radiant\2023.1\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v" verilog
+58		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_rom.v" verilog
+59		*	"C:\lscc\radiant\2023.1\ip\pmi\../avant/rom/rtl\lscc_rom.v" verilog
+60		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_sub.v" verilog
+61		*	"C:\lscc\radiant\2023.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" verilog
+62		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dp_be.v" verilog
+63		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_ram_dq_be.v" verilog
+64		*	"C:\lscc\radiant\2023.1\ip\pmi\pmi_dsp.v" verilog
+65			"Z:\es4\Final-20241122T182447Z-001\Final\mypll\rtl\mypll.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 5 6 4 3
+27 16 15 13 14
+28 12 11 10
+29 22 19 21 20 9 18 8 28 27 26
+30 22 19 7
+31 22 19
+32 65 22 19 1 29 2 31 30
+33 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34
+34 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 33
+35 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 34 33
+36 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 35 34 33
+37 33 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 36 35 34
+38 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 37 36 35 34 33
+39 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 38 37 36 35 34 33
+40 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 39 38 37 36 35 34 33
+41 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 40 39 38 37 36 35 34 33
+42 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 41 40 39 38 37 36 35 34 33
+43 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 42 41 40 39 38 37 36 35 34 33
+44 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 43 42 41 40 39 38 37 36 35 34 33
+45 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 44 43 42 41 40 39 38 37 36 35 34 33
+46 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 45 44 43 42 41 40 39 38 37 36 35 34 33
+47 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+48 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+49 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+50 64 63 62 61 60 59 58 57 56 55 54 53 52 51 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+51 33 64 63 62 61 60 59 58 57 56 55 54 53 52 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34
+52 64 63 62 61 60 59 58 57 56 55 54 53 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+53 33 64 63 62 61 60 59 58 57 56 55 54 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34
+54 64 63 62 61 60 59 58 57 56 55 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+55 64 63 55 62 61 60 59 58 57 56 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+56 64 63 62 61 60 59 58 57 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+57 64 57 63 62 61 60 59 58 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+58 64 63 62 61 60 59 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+59 64 63 62 61 60 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+60 64 63 62 61 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+61 33 64 63 62 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34
+62 64 63 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+63 64 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+65 -1
+#Dependency Lists(Users Of)
+0 -1
+1 32
+2 32
+3 26
+4 26
+5 26
+6 26
+7 30
+8 29
+9 29
+10 28
+11 28
+12 28
+13 27
+14 27
+15 27
+16 27
+17 -1
+18 29
+19 29 30 31 32
+20 29
+21 29
+22 29 30 31 32
+23 -1
+24 -1
+25 -1
+26 29
+27 29
+28 29
+29 32
+30 32
+31 32
+32 -1
+33 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34
+34 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 33
+35 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 34 33
+36 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 35 34 33
+37 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 36 35 34 33
+38 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 37 36 35 34 33
+39 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 38 37 36 35 34 33
+40 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 39 38 37 36 35 34 33
+41 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 40 39 38 37 36 35 34 33
+42 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 41 40 39 38 37 36 35 34 33
+43 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 42 41 40 39 38 37 36 35 34 33
+44 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 43 42 41 40 39 38 37 36 35 34 33
+45 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 44 43 42 41 40 39 38 37 36 35 34 33
+46 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 45 44 43 42 41 40 39 38 37 36 35 34 33
+47 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+48 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+49 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+50 64 63 62 61 60 59 58 57 56 55 54 53 52 51 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+51 64 63 62 61 60 59 58 57 56 55 54 53 52 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+52 64 63 62 61 60 59 58 57 56 55 54 53 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+53 64 63 62 61 60 59 58 57 56 55 54 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+54 64 63 62 61 60 59 58 57 56 55 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+55 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+56 64 63 62 61 60 59 58 57 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+57 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+58 64 63 62 61 60 59 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+59 64 63 62 61 60 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+60 64 63 62 61 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+61 64 63 62 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+62 64 63 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+63 64 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33
+65 32
+#Design Unit to File Association
+module work mypll_ipgen_lscc_pll 65
+module work mypll 65
+module work pmi_dsp 64
+module work pmi_ram_dq_be 63
+module work pmi_ram_dp_be 62
+module work pmi_sub 60
+module work pmi_rom 58
+module work lscc_rom_inst_core 59
+module work lscc_rom_inst 59
+module work lscc_rom 59
+module work pmi_ram_dq 56
+module work lscc_ram_dq_core 57
+module work lscc_ram_dq_inst 57
+module work lscc_write_through 57
+module work lscc_ram_dq_main 57
+module work lscc_ram_dq 57
+module work pmi_ram_dp 54
+module work lscc_ram_dp_core 55
+module work lscc_ram_dp_main 55
+module work lscc_ram_dp 55
+module work pmi_mult 52
+module work pmi_multaddsub 50
+module work pmi_multaddsubsum 48
+module work lscc_mult_add_sub_sum 49
+module work pmi_mac 46
+module work lscc_mult_accumulate 47
+module work pmi_fifo_dc 44
+module work lscc_fifo_mem_core 45
+module work lscc_fifo_mem_main 45
+module work lscc_fifo_mem 45
+module work lscc_fifo_dc_hw_core 45
+module work lscc_hard_fifo_dc 45
+module work lscc_soft_fifo_dc 45
+module work lscc_fifo_dc_main 45
+module work lscc_fifo_dc_fwft_fabric 45
+module work lscc_fifo_dc 45
+module work pmi_fifo 42
+module work lscc_fifo_hw_core 43
+module work lscc_hard_fifo 43
+module work lscc_soft_fifo 43
+module work lscc_fifo_main 43
+module work lscc_fifo_fwft_fabric 43
+module work lscc_fifo 43
+module work pmi_counter 40
+module work lscc_cntr 41
+module work pmi_complex_mult 38
+module work lscc_multiplier_dsp 39
+module work lscc_multiplier_lut 39
+module work lscc_multiplier 39
+module work lscc_mult_add_sub 39
+module work lscc_complex_mult 39
+module work pmi_add 36
+module work pmi_addsub 34
+module work lscc_subtractor 35
+module work lscc_adder 35
+module work lscc_add_sub 35
+module work top 32
+arch work top synth 32
+module work states 31
+arch work states synth 31
+module work game 30
+arch work game synth 30
+module work pattern_gen 29
+arch work pattern_gen synth 29
+module work heart_selector 28
+arch work heart_selector behavioral 28
+module work blank_arrow_selector 27
+arch work blank_arrow_selector behavioral 27
+module work arrow_selector 26
+arch work arrow_selector behavioral 26
+module work blue_win_rom 24
+arch work blue_win_rom behavioral 24
+module work red_win_rom 23
+arch work red_win_rom behavioral 23
+module work heart_helper 21
+arch work heart_helper synth 21
+module work blank_helper2 20
+arch work blank_helper2 synth 20
+module work blank_helper 18
+arch work blank_helper synth 18
+module work start_screen_rom 17
+arch work start_screen_rom behavioral 17
+module work left_blank_rom 16
+arch work left_blank_rom behavioral 16
+module work down_blank_rom 15
+arch work down_blank_rom behavioral 15
+module work up_blank_rom 14
+arch work up_blank_rom behavioral 14
+module work right_blank_rom 13
+arch work right_blank_rom behavioral 13
+module work blank_heart_rom 12
+arch work blank_heart_rom behavioral 12
+module work red_heart_rom 11
+arch work red_heart_rom behavioral 11
+module work blue_heart_rom 10
+arch work blue_heart_rom behavioral 10
+module work pattern_gen_helper2 9
+arch work pattern_gen_helper2 synth 9
+module work pattern_gen_helper 8
+arch work pattern_gen_helper synth 8
+module work randomizer 7
+arch work randomizer synth 7
+module work down_arrow_rom 6
+arch work down_arrow_rom behavioral 6
+module work left_arrow_rom 5
+arch work left_arrow_rom behavioral 5
+module work right_arrow_rom 4
+arch work right_arrow_rom behavioral 4
+module work up_arrow_rom 3
+arch work up_arrow_rom behavioral 3
+module work vga 2
+arch work vga synth 2
+module work nes_controller 1
+arch work nes_controller synth 1
